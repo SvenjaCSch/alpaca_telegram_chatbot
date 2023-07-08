@@ -17,19 +17,32 @@ The prompt has to be in that order:
 
 During the chating with the bot, the prompt will be extended with the conversation between the User and the Bot Bob. The prompt can be changed via changing the general information, the instruction or by adding an example.
 
+## Szenarios
+1) Bored: The User is bored and wants some entertainment from the bot. The bot should play a game with the user, that makes sense.
+2) Scared: The User is in a park and pretends that the bot is living 10 minutes away. They are planning that the User come over and the making dinner together (pizza). Maybe the user buys some drinks
+3) Confused: The User is unhappely in love with the best friend. The Bot shall listen to the problem, gives confort und some advice that helps the User
+
 ## Testing
 For the testing we will use following approaches:
 1) Conduct a conversation in 3 different scenarios with variables (explained below)
    1.1) feeling bored
-   1.2) feeling insecure (for instance)
-   1.3) feeling lonely (for instance)
+   1.2) feeling scared 
+   1.3) feeling confused 
 3) Varibale 1: using the term "friend" or "assistant" for the bot in the introduction of the prompt
 4) Variable 2: using a male (Bob), Female (Liza) or unisex (Peyton) name for the bot
-5) (to be confirmed) using no example or 2 different examples according to the findings about the communication in such szenarios
+5) (to be confirmed) using no example or 2 different examples according to the findings about the communication in such szenarios (later)
 
 At the end it is also been tests whether the choosen prompt also works with voicemessage (same results, similar results, different results)
 That procedure will lead to 2 x 3 x 3 = 18  different prompts and in total to 3 * 18 +1 = 55 tests
+Without the examples it is 2 * 3 = 6 different prompts and in total 3 * 6 + 1 = 19 test 
 
+### Rules while testing
+1) Always start with the same sentence
+2) If the bot is answering the same, than you reply as you did last time
+3) try to achieve your goal
+4) try to have a natural conversation
+5) the conversation ends if either party (you or your bot) says bye or something similar
+6) record every conversation and mark the parts the bot wrote
 ## Evaluation and Analysis
 1. Basic statistics
   - Number of turn-taking
