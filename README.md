@@ -37,8 +37,13 @@ Error Analysis of the chatbot
   - contradicting conversation
   - linguistic error
 
-## Ethics
+## Further questions
+### Ethics
 ethics and concerns over the use of chatbots
+### Language
+Does the same prompt translated works on different languages evenly good?
+### TTS
+Can the chatbot response in a natural sounding speech?
 
 ## References
 Adiwardana 2018
