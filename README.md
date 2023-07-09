@@ -36,6 +36,9 @@ At the end it is also been tests whether the choosen prompt also works with voic
 That procedure will lead to 2 x 3 x 3 = 18  different prompts and in total to 3 * 18 +1 = 55 tests
 Without the examples it is 2 * 3 = 6 different prompts and in total 3 * 6 + 1 = 19 test 
 
+Results Scenario Bored:
+https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit
+
 ### Rules while testing
 1) Always start with the same sentence
 2) If the bot is answering the same, than you reply as you did last time
