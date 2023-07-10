@@ -61,8 +61,8 @@ https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/
           - Ranking based on the occurence frequencies
           - The paper found that Questioning and Acknowledging are the two most frequent uses in response to most emotions, we could compare our findings to the paper's findings.
    
-| Category | Description | Example
-| --- | --- | --- |
+| Category | Description 
+| --- | --- |
 | Questioning | The bot asks question for further information or clarification |
 | Acknowledging | The bot recognizses or admit the user's feelings |
 | Agreeing | The bot shows that it has the same opinion towards something |
