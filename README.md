@@ -37,7 +37,7 @@ That procedure will lead to 2 x 3 x 3 = 18  different prompts and in total to 3 
 Without the examples it is 2 * 3 = 6 different prompts and in total 3 * 6 + 1 = 19 test 
 
 Results Scenario Bored:
-https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit
+[https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit](https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit?usp=sharing)
 
 ### Rules while testing
 1) Always start with the same sentence
