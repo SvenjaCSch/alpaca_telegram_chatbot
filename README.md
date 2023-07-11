@@ -31,10 +31,14 @@ For the testing we will use following approaches:
 3) Varibale 1: using the term "friend" or "assistant" for the bot in the introduction of the prompt
 4) Variable 2: using a male (Bob), Female (Liza) or unisex (Peyton) name for the bot
 5) (to be confirmed) using no example or one example.
-6) Every case is tested two rounds
 
+Phase 0: Showing difference between "original" prompt and "telegram" prompt
+
+Phase 1: Testing whether we need two rounds with the bored-example (how much difference between the two results?)
+
+Phase 2:
 At the end it is also been tests whether the choosen prompt also works with voicemessage (same results, similar results, different results)
-That procedure will lead to 2 x 3 x 2 x 2 = 24  different prompts and in total to 3 * 24 +1 = 75 tests
+That procedure will lead to 2 x 3 x 2 = 12  different prompts and in total to 3 * 12 +1 = 37 tests
 
 Results Scenario Bored:
 [https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit](https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit?usp=sharing)
