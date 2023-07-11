@@ -30,11 +30,11 @@ For the testing we will use following approaches:
    1.3) feeling confused 
 3) Varibale 1: using the term "friend" or "assistant" for the bot in the introduction of the prompt
 4) Variable 2: using a male (Bob), Female (Liza) or unisex (Peyton) name for the bot
-5) (to be confirmed) using no example or 2 different examples according to the findings about the communication in such szenarios (later)
+5) (to be confirmed) using no example or one example.
+6) Every case is tested two rounds
 
 At the end it is also been tests whether the choosen prompt also works with voicemessage (same results, similar results, different results)
-That procedure will lead to 2 x 3 x 3 = 18  different prompts and in total to 3 * 18 +1 = 55 tests
-Without the examples it is 2 * 3 = 6 different prompts and in total 3 * 6 + 1 = 19 test 
+That procedure will lead to 2 x 3 x 2 x 2 = 24  different prompts and in total to 3 * 24 +1 = 75 tests
 
 Results Scenario Bored:
 [https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit](https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit?usp=sharing)
