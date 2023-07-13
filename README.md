@@ -119,6 +119,17 @@ Results Scenario Bored:
   - Appraisal Support
 Qualitative analysis based on the convesation texts
 
+# Evaluation of results
+Using qualitative and quantitative matrics from previous studies
+An example: We could yous categories, attributes, metrics, perspectives etc. as followed:
+| Perspective   | Category   | Attributes   | Metrics   | Apprach |
+| -----------   | --------   | -------      | ------   | -----   |
+|User experience | Usability |
+|               |Performance  |
+|                |Affect      |
+|                Satisfaction  |
+
+
 ## Further questions
 ### Ethics
 ethics and concerns over the use of chatbots
