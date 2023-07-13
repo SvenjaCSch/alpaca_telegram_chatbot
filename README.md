@@ -125,10 +125,17 @@ An example: We could yous categories, attributes, metrics, perspectives etc. as 
 | Perspective   | Category   | Attributes   | Metrics   | Apprach |
 | -----------   | --------   | -------      | ------   | -----   |
 |User experience | Usability | • task completion|For example:| Quantitative or|
-|                  |      |   rating scales, or quastionairs|   Qualitative |
+|                  |      |   rating scales, or quastionairs|   |Qualitative |
 |               |Performance  | • response in unexpected situations| |  |
 |                |Affect      | • effective task allocation | | |
 |                Satisfaction  | | | ||
+| Information retrieval | Accuracy   | ability to detect meaning and intent |• total elpsed time ||
+|                        | Accessibility | responding appropriately |• total number of turns | |
+|   |   |   |• number of inappropriate responses | |
+|Linguistic perspective | Quality |• correctness of responses |• For this evaluation the use the Likert scale | Qualitative |
+| | Quantitiy|• adequateness of information | | |
+| | Relation |• relevancy of resonses to context | | |
+| | Manner|• avoiding ambiguity|| |
 
 
 ## Further questions
