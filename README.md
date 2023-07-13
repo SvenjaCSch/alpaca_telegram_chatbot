@@ -124,10 +124,11 @@ Using qualitative and quantitative matrics from previous studies
 An example: We could yous categories, attributes, metrics, perspectives etc. as followed:
 | Perspective   | Category   | Attributes   | Metrics   | Apprach |
 | -----------   | --------   | -------      | ------   | -----   |
-|User experience | Usability |
-|               |Performance  |
-|                |Affect      |
-|                Satisfaction  |
+|User experience | Usability | • task completion|For example:| Quantitative or|
+|                  |      |   rating scales, or quastionairs|   Qualitative |
+|               |Performance  | • response in unexpected situations| |  |
+|                |Affect      | • effective task allocation | | |
+|                Satisfaction  | | | ||
 
 
 ## Further questions
