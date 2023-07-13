@@ -121,7 +121,7 @@ Qualitative analysis based on the convesation texts
 
 # Evaluation of results
 Using qualitative and quantitative matrics from previous studies, in this study, how exactly they are evaluated is not stated. They took this info from other studies. This can provide a guideline for which variables we want to include or which might be interesting to us. (The full table on google docs)
- - An example: We could yous categories, attributes, metrics, perspectives etc. as follows:
+An example: We could yous categories, attributes, metrics, perspectives etc. as follows:
 | Perspective   | Category   | Attributes   | Metrics   | Approach |
 | -----------   | --------   | -------      | ------   | -----   |
 |User experience | Usability | • task completion|For example:| Quantitative or|
