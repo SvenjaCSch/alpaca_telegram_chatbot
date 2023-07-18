@@ -40,12 +40,6 @@ Phase 2:
 At the end it is also been tests whether the choosen prompt also works with voicemessage (same results, similar results, different results)
 That procedure will lead to 2 x 3 x 2 = 12  different prompts and in total to 3 * 12 +1 = 37 tests
 
-Results Scenario Bored:
-[https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit](https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit?usp=sharing)
-
-Result Scenario Scared:
-[https://docs.google.com/document/d/11-a8GP98tOLh13-U1gqdXVZZiMlx1mpGsaGLwX_LL9Y/edit?usp=sharing](https://docs.google.com/document/d/11-a8GP98tOLh13-U1gqdXVZZiMlx1mpGsaGLwX_LL9Y/edit?usp=sharing)
-
 ### Rules while testing
 1) Always start with the same sentence
 2) If the bot is answering the same, than you reply as you did last time
@@ -53,6 +47,17 @@ Result Scenario Scared:
 4) try to have a natural conversation
 5) the conversation ends if either party (you or your bot) says bye or something similar
 6) record every conversation and mark the parts the bot wrote
+
+Results Scenario Bored:
+[https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit](https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit?usp=sharing)
+
+Result Scenario Scared:
+[https://docs.google.com/document/d/11-a8GP98tOLh13-U1gqdXVZZiMlx1mpGsaGLwX_LL9Y/edit?usp=sharing](https://docs.google.com/document/d/11-a8GP98tOLh13-U1gqdXVZZiMlx1mpGsaGLwX_LL9Y/edit?usp=sharing)
+
+Further questions about the selfimage of the chatbot:
+[https://docs.google.com/document/d/1xKrVjWne2XZ2UAKZTDJM5OEqGjsrJz-cO57QKYOX3Io/edit?usp=sharing](https://docs.google.com/document/d/1xKrVjWne2XZ2UAKZTDJM5OEqGjsrJz-cO57QKYOX3Io/edit?usp=sharing)
+
+
 ## Evaluation and Analysis
 1. Basic statistics
   - Number of turn-taking
