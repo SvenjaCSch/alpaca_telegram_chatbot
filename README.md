@@ -48,6 +48,7 @@ That procedure will lead to 2 x 3 x 2 = 12  different prompts and in total to 3 
 5) the conversation ends if either party (you or your bot) says bye or something similar
 6) record every conversation and mark the parts the bot wrote
 
+### Results
 Results Scenario Bored:
 [https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit](https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit?usp=sharing)
 
@@ -159,6 +160,7 @@ Can the chatbot response in a natural sounding speech?
 - Adiwardana 2018
 - Stockle 20000. Dialogue Act Modeling for Automatic Tagging and Recognition of Conversational Speech
 - Seeetal 2019
+- Veselica, Rozana, Gordana Dukic, and Khalid Hammes, eds. "Economic and Social Development (Book of Proceedings), 36th International Scientific Conference on Economic and Social Development–." Journal of Personal Selling & Sales Management 32.3 (2018): 333-348.
 - Wei
 - https://www.jmir.org/2020/3/e16235/
 - https://abetlen.github.io/llama-cpp-python/
