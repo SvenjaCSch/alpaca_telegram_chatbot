@@ -40,6 +40,9 @@ Phase 2:
 At the end it is also been tests whether the choosen prompt also works with voicemessage (same results, similar results, different results)
 That procedure will lead to 2 x 3 x 2 = 12  different prompts and in total to 3 * 12 +1 = 37 tests
 
+Phase 3:
+Ask personal question to the chatbot to see, if there are more differences between gender and friend/assistant in generell, that might can explain differences in the scenarios.
+
 ### Rules while testing
 1) Always start with the same sentence
 2) If the bot is answering the same, than you reply as you did last time
