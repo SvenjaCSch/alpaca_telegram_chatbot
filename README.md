@@ -1,8 +1,20 @@
 # alpaca_telegram_chatbot study project
-Creating a telegram chatbot responding via Alpaca LLM to have a assistant acting in a friendly manner
-uses the chat history as prompt
 
-Different prompt can be used to maximes the best answer of bob. To find the best prompt, a evaluation should take place. 
+## Introduction
+
+Conversation and chats are very important to us human, as reflected in our everyday behavior. We bascially talk to different people daily. We communicate to express what we want, to exchange intellectual ideas with one another, or to connect to people socially. Especially, we want to find someboy to talk to when we are in some situations. For instance, when we are in low mood, or confused, just bored,  we just want to talk to somebody - this person needs not to be very familiar with us, but rather act as a listener or a company. The problem may still be here after the talk, but the stress level is somehow relieved. 
+
+Therefore, we are interested in creating our own chatbot with similar social functions - be a good listener in a friendly manner who can temporarily address our emotional needs. AI Chatbots have gained so much popularity these years, and there have already been quite a number of chatbots built based on LLM. For example, XXX (to be added).
+
+
+##Method
+We decided to create the chatbot via Alpaca LLM. (Reason for this is) This model is trained on social media data so it generates more conversation-like output. (fact-check needed)
+
+We used Telegram Bot to build our chatbot. It is a program ---
+
+it uses the chat history as prompt
+
+Different prompt can be used to maximize the best answer of bob. To find the best prompt, a evaluation should take place. 
 Bob can act as a friend in a varienty of scenarios, e.g. Lost, Scared, Bored, Curious ...
 The different scenario wil be tested. 
 
