@@ -145,21 +145,24 @@ Qualitative analysis based on the convesation texts
 
 # Evaluation of results
 Using qualitative and quantitative matrics from previous studies, in this study, how exactly they are evaluated is not stated. They took this info from other studies. This can provide a guideline for which variables we want to include or which might be interesting to us. (The full table on google docs)
-An example: We could yous categories, attributes, metrics, perspectives etc. as follows:
-| Perspective   | Category   | Attributes   | Metrics   | Approach |
-| -----------   | --------   | -------      | ------   | -----   |
-|User experience | Usability | • task completion|For example:| Quantitative or|
-|                  |      |   |rating scales, or quastionairs|  Qualitative |
-|               |Performance  | • response in unexpected situations| |  |
-|                |Affect      | • effective task allocation | | |
-|                |Satisfaction   | | ||
-| Information retrieval | Accuracy   | ability to detect meaning and intent |• total elpsed time ||
-|                        | Accessibility | responding appropriately |• total number of turns | |
-|   |   |   |• number of inappropriate responses | |
-|Linguistic perspective | Quality |• correctness of responses |• For this evaluation the use the Likert scale | Qualitative |
-| | Quantitiy|• adequateness of information | | |
-| | Relation |• relevancy of resonses to context | | |
-| | Manner|• avoiding ambiguity|| |
+1) Quantity: Task Completion: Measure how effectively the chatbot helps users achieve their goals and complete tasks during the conversation.
+2) Quality: Accuracy of Responses: Evaluate the correctness and relevance of the chatbot's answers to user queries and prompts.
+3) Manner: Naturalness: Assess how well the chatbot maintains a natural and human-like conversational style, making the interaction more pleasant and engaging.
+4) Language Variation: Analyze the chatbot's ability to use a variety of language and expressions to avoid repetitive responses and maintain an interesting conversation.
+5) Relation: Context Sensitiveness: Determine how well the chatbot responds based on the context of the conversation, showing an understanding of user input and providing appropriate replies.
+6) Ease of Understanding: How easily are the chatbot’s responses understood, avoiding confusion.
+
+Conversation errors (double weighting)
+1) Not answering the question, for example (leaving out information) (0 - -5)
+2) Ignoring/forgetting the previous context (0 - -5)
+3) Bot creates the whole dialogue by itself (0 - -5)
+4) Not finishing sentences (0 - -5)
+5) Bot just ends dialogue (0 - -5)
+
+Structural error (single weighting):
+1) Repetition (0 - -5)
+2) Spelling errors (0 - -5)
+
 
 
 ## Further questions
