@@ -152,6 +152,15 @@ Using qualitative and quantitative matrics from previous studies, in this study,
 5) Relation: Context Sensitiveness: Determine how well the chatbot responds based on the context of the conversation, showing an understanding of user input and providing appropriate replies.
 6) Ease of Understanding: How easily are the chatbot’s responses understood, avoiding confusion.
 
+### Evaluation categorization
+1 - Poor: The chatbot's performance is significantly lacking - there is a major need for improvement.
+2 - Below Average: The chatbot's performance is below satisfactory - and there is room for improvement.
+3 - Satisfactory: The chatbot's performance is acceptable - but there are some areas that can be improved.
+4 - Good: The chatbot's performance is quite good - with only minor areas for improvement.
+5 - Excellent: - The chatbot's performance is outstanding -  little to no room for improvement.
+
+Chatbot Evaluation Rubric: https://docs.google.com/document/d/1gOaaY3d_I28JIt3fXaiT5L-yzv_hVJDMZeaXyHw8oWs/edit
+
 ### Evaluatio categorization
 1 - Poor: The chatbot's performance is significantly lacking - there is a major need for improvement.
 2 - Below Average: The chatbot's performance is below satisfactory - and there is room for improvement.
