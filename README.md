@@ -116,12 +116,18 @@ Further questions about the selfimage of the chatbot:
 
 
 ## Results and Analysis
-### 1. Basic statistics
+### Ranking 
+Table which one did the best
+Separate the three scenarios
+
+### Further analysis
+Dialogue length statistics
   - Number of turn-taking
   - Number of utterances per turn
   - Number of words per sentence
   - etc
-### 2. Analysis of the chatbot's performance / conversation as a whole - how humanlike is it?
+### Stat on dialogue/ emotional tags
+Analysis of the chatbot's performance / conversation as a whole - how humanlike is it?
  
   #### 2.1 Analysis of Basic Dialoague Acts 
   - General look on the coversation as a whole, how did the conversation go
@@ -171,6 +177,9 @@ Further questions about the selfimage of the chatbot:
 
 *As the classification is based on empathy dialogues, it may not be enough to cover our testing (for example in bored situation, so I further added some categories to enrich the classification.
 
+## Limitation
+- number of maximum tokens maybe too limited so the goal could not be reached 
+- evaluation: XXXX..
 
 ## Further questions
 ### Ethics
