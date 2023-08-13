@@ -7,7 +7,7 @@ Conversation and chats are very important to us human, as reflected in our every
 Therefore, we are interested in creating our own chatbot with similar social functions - be a good listener in a friendly manner who can temporarily address our emotional needs. AI Chatbots have gained so much popularity these years, and there have already been quite a number of chatbots built based on LLM. For example, XXX (to be added).
 
 
-##Method
+## Method
 We decided to create the chatbot via Alpaca LLM. (Reason for this is) This model is trained on social media data so it generates more conversation-like output. (fact-check needed)
 
 We used Telegram Bot to build our chatbot. It is a program ---
