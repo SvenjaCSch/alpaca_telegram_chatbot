@@ -20,7 +20,7 @@ The different scenario wil be tested.
 
 For the functionality of the chatbot, a API-key for the telegram bot is requiered as well as a alpaca llama model.
 
-## prompt structure
+### prompt structure
 The prompt has to be in that order:
 1) General Information
 2) Instruction
@@ -29,7 +29,7 @@ The prompt has to be in that order:
 
 During the chating with the bot, the prompt will be extended with the conversation between the User and the Bot Bob. The prompt can be changed via changing the general information, the instruction or by adding an example.
 
-## Szenarios
+### Szenarios
 1) Bored: The User is bored and wants some entertainment from the bot. The bot should play a game with the user, that makes sense.
 2) Scared: The User is in a park and pretends that the bot is living 10 minutes away. They are planning that the User come over and the making dinner together (pizza). Maybe the user buys some drinks
 3) Confused: The User is unhappely in love with the best friend. The Bot shall listen to the problem, gives confort und some advice that helps the User
@@ -63,7 +63,7 @@ Ask personal question to the chatbot to see, if there are more differences betwe
 5) the conversation ends if either party (you or your bot) says bye or something similar
 6) record every conversation and mark the parts the bot wrote
 
-### Results
+## Results
 Results Scenario Bored:
 [https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit](https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit?usp=sharing)
 
