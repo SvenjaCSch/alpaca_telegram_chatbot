@@ -30,7 +30,8 @@ Therefor we are going to test how the bot performs under different different sce
 
 For the functionality of the chatbot, a API-key for the telegram bot is requiered as well as a alpaca llama model.
 
-## Testing description and the set-up
+## Methodology
+### Testing
 For the testing, we will use following approaches:
 1) Conduct a conversation with the Bot in 3 different scenarios
 2) For each scenario, different prompts are used with some variables
@@ -50,7 +51,7 @@ That procedure will lead to 2 x 3 x 2 = 12  different prompts and in total to 3 
 Phase 3:
 Ask personal question to the chatbot to see, if there are more differences between gender and friend/assistant in general, that might can explain differences in the scenarios.
 
-### prompt structure
+#### prompt structure
 The prompt has to be in that order:
 1) General Information
 2) Instruction
@@ -60,12 +61,12 @@ The prompt has to be in that order:
 During the chating with the bot, the prompt will be extended with the conversation between the User and the Bot Bob. 
 The prompt can be changed via changing the general information, the instruction or by adding an example.
 
-### Scenarios to be tested
+#### Scenarios to be tested
 1) User feeling bored ("the bored scenario"): The User is bored and wants some entertainment from the Bot. Goal for the Bot is to play a short game, which make sense to play over the phone, with the user.
 2) User feeling scared ("the scared scenario"): The User is in a park, feeling scared. The User pretends that the Bot is living 10 minutes away and wants to go to visit the Bot. Goal for the Bot is to comfort the User and plan to make dinner together (pizza). ??Maybe the user buys some drinks??
 3) User feeling confused ("the confused scenario"): The User is confused of a love problem. Goal for the Bot is to listen to the problem, give confort and advices that may help the User
 
-### Rules while testing
+#### Rules while testing
 1) Always start with the same opening sentence
 2) Keep the input the same across different prompts in the same scenario, i.e. if the Bot gives the same or similar reply, then reply the same or similarly
 3) Achieve the goal in the conversation
@@ -83,7 +84,7 @@ Using qualitative and quantitative matrics from previous studies, in this study,
 5) Relation: Context Sensitiveness: Determine how well the chatbot responds based on the context of the conversation, showing an understanding of user input and providing appropriate replies.
 6) Ease of Understanding: How easily are the chatbot’s responses understood, avoiding confusion.
 
-### Evaluation categorization
+#### Evaluation categorization
 1) **Poor**: The chatbot's performance is significantly lacking - there is a major need for improvement.
 2) **Below Average**: The chatbot's performance is below satisfactory - and there is room for improvement.
 3) **Satisfactory**: The chatbot's performance is acceptable - but there are some areas that can be improved.
@@ -92,14 +93,14 @@ Using qualitative and quantitative matrics from previous studies, in this study,
 
 Chatbot Evaluation Rubric: https://docs.google.com/document/d/1gOaaY3d_I28JIt3fXaiT5L-yzv_hVJDMZeaXyHw8oWs/edit
 
-### Conversation errors (double weighting)
+#### Conversation errors (double weighting)
 1) Not answering the question, for example (leaving out information) (0 - -5)
 2) Ignoring/forgetting the previous context (0 - -5)
 3) Bot creates the whole dialogue by itself (0 - -5)
 4) Not finishing sentences (0 - -5)
 5) Bot just ends dialogue (0 - -5)
 
-### Structural error (single weighting):
+#### Structural error (single weighting):
 1) Repetition (0 - -5)
 2) Spelling errors (0 - -5)
 
@@ -114,7 +115,7 @@ Further questions about the selfimage of the chatbot:
 [https://docs.google.com/document/d/1xKrVjWne2XZ2UAKZTDJM5OEqGjsrJz-cO57QKYOX3Io/edit?usp=sharing](https://docs.google.com/document/d/1xKrVjWne2XZ2UAKZTDJM5OEqGjsrJz-cO57QKYOX3Io/edit?usp=sharing)
 
 
-## Evaluation and Analysis
+## Results and Analysis
 ### 1. Basic statistics
   - Number of turn-taking
   - Number of utterances per turn
