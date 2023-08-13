@@ -181,13 +181,16 @@ Analysis of the chatbot's performance / conversation as a whole - how humanlike 
 - number of maximum tokens maybe too limited so the goal could not be reached 
 - evaluation: XXXX..
 
-## Further questions
+## Further questions?
 ### Ethics
 ethics and concerns over the use of chatbots
+
+## Conclusion and Perspectives
 ### Language
 Does the same prompt translated works on different languages evenly good?
 ### TTS
 Can the chatbot response in a natural sounding speech?
+
 
 ## References
 - [A Taxonomy of Empathetic Response Intents in Human Social Conversations](https://aclanthology.org/2020.coling-main.429) (Welivita & Pu, COLING 2020)
