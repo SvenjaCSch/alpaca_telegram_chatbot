@@ -1,6 +1,6 @@
 # alpaca_telegram_chatbot study project
 
-## Introduction
+## Introduction and Related Work
 
 Conversation and chats are very important to us human, as reflected in our everyday behavior. We bascially talk to different people daily. We communicate to express what we want, to exchange intellectual ideas with one another, or to connect to people socially. Especially, we want to find someboy to talk to when we are in some situations. For instance, when we are in low mood, or confused, just bored,  we just want to talk to somebody - this person needs not to be very familiar with us, but rather act as a listener or a company. The problem may still be here after the talk, but the stress level is somehow relieved. 
 
