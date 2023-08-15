@@ -2,7 +2,7 @@
 
 ## Introduction and Related Work
 
-Conversation and chats are very important to us human, as reflected in our everyday behavior. We bascially talk to different people daily. We communicate to express what we want, to exchange intellectual ideas with one another, or to connect to people socially. Especially, we want to find someboy to talk to when we are in some situations. For instance, when we are in low mood, or confused, just bored,  we just want to talk to somebody - this person needs not to be very familiar with us, but rather act as a listener or a company. The problem may still be here after the talk, but the stress level is somehow relieved. 
+Conversation and chats are very important to us human, as reflected in our everyday behavior. We bascially talk to different people daily. We communicate to express what we want, to exchange intellectual ideas with one another, or to establish social connection with other people. Especially, we want to find someboy to talk to when we are in some situations. For instance, when we are in low mood, or confused, just bored,  we just want to talk to somebody - this person needs not to be very familiar with us, but rather act as a listener or a company. The problem may still be here after the talk, but the stress level is somehow relieved. 
 
 Therefore, we are interested in creating our own chatbot with similar social functions - be a good listener in a friendly manner who can temporarily address our emotional needs. AI Chatbots have gained so much popularity these years, and there have already been quite a number of chatbots built based on LLM. For example, XXX (to be added).
 
