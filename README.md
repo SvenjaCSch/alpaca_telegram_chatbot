@@ -107,6 +107,7 @@ In order to make the chats comparable across different prompts, some rules need 
  
 #### 4. Compare which prompt and evaluate which one perform the best in different scenarios.
 
+**These phases do we still need them?**
 `Phase 0: Showing difference between "original" prompt and "telegram" prompt`
 
 `Phase 1: Testing whether we need two rounds with the bored-example (how much difference between the two results?)`
