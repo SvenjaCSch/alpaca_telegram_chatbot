@@ -2,9 +2,14 @@
 
 ## Introduction and Related Work
 
-Conversation and chats are very important to us human, as reflected in our everyday behavior. We bascially talk to different people daily. We communicate to express what we want, to exchange intellectual ideas with one another, or to establish social connection with other people. Especially, we want to find someboy to talk to when we are in some situations. For instance, when we are in low mood, or confused, just bored,  we just want to talk to somebody - this person needs not to be very familiar with us, but rather act as a listener or a company. The problem may still be here after the talk, but the stress level is somehow relieved. 
+Conversation and chats are very important to us humans, as reflected in our daily behavior. We basically talk to many different people every day, because we need to communicate to express what we want, to exchange intellectual ideas with one another, or to connect to people socially. Especially, we want to find somebody to talk to when we are in some situations. For instance, when we are in a low mood, or confused, just bored, we simply want to talk to somebody - who needs not to be very familiar with us, but rather act as a listener or a good company. The problem may still be here after the talk, but the stress level is somehow relieved.
+Any relevant research to support this?
 
-Therefore, we are interested in creating our own chatbot with similar social functions - be a good listener in a friendly manner who can temporarily address our emotional needs. AI Chatbots have gained so much popularity these years, and there have already been quite a number of chatbots built based on LLM. For example, XXX (to be added).
+What if we can have a chatbot that could offer some emotional support to us? We are interested in creating a chatbot with similar social functions - be a good listener in a friendly manner who can temporarily address our emotional needs.
+
+Chatbots are systems designed for extended conversations (Jurafsky & Martin 2023). It tries to imitate the unstructured conversations or ‘chats’ characteristic of human-human interaction, mainly for entertainment, but also for practical purposes like making task-oriented agents more natural
+
+AI Conversational Chatbots have gained so much popularity and attention these years. From more specific task-based chatbots deployed in large institutions like banks, to some more generic, open-domain, LLM-driven chatbot such as ChatGPT and Bing, various chatbots have been designed and created with different functions and purposes
 
 ### Previous research and related studies
 
