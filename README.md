@@ -18,12 +18,7 @@ Moreover, it has also been a challenge to evaluate chatbot and the relevant natu
 
 There were competitions on open-domain AIs. One of which, the second Conversational Intelligence Challenge **(“ConvAI2”)**, aimed to find approaches to create a high-quality automatic evaluation tool so that the chatbot systems can be compared directly. This challenge proposed that apart from utterance-level performance, conversation-level performance like a ratio of question-answer pairs in a dialogue is also important in chatbot evaluations.
 
-**"What makes a good conversation?"**
-**bot can actually perform social functions:**
-  - Information support
-  - Emotional support
-  - Companionship Support
-  - Appraisal Support
+Following the evaluation framwork from ConvAI2, **See et al (2019)** also suggested that a good control of four attributes in a chit-chat dialogue, including repetition and question words, could improve conversation evaluation.
 
 ## Chatbot Set-up
 We decided to create the chatbot ("the Bot") via Alpaca LLM. (Reason for this is) This model is trained on social media data so it generates more conversation-like output. (fact-check needed)
