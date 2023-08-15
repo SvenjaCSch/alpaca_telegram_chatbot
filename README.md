@@ -31,49 +31,85 @@ Therefor we are going to test how the bot performs under different different sce
 For the functionality of the chatbot, a API-key for the telegram bot is requiered as well as a alpaca llama model.
 
 ## Methodology
-### Testing
-For the testing, we will use following approaches:
-1) Conduct a conversation with the Bot in 3 different scenarios
-2) For each scenario, different prompts are used with some variables
-4)    Varibale 1: using the term "friend" or "assistant" for the bot in the introduction of the prompt
-5)    Variable 2: using a male (Bob), Female (Liza) or unisex (Peyton) name for the bot
-6)    Include and exlcuding a short sample dialogue.
-7) Compare which prompt perform the best in different scenarios
+As we expect the Bot can act as a friend under a variety of scenarios that humans may encounter in daily life, for example when the User is feeling lost, scared, bored, curious, etc. We want to test how the Bot performs under different scenarios. 
 
-Phase 0: Showing difference between "original" prompt and "telegram" prompt
+At the same time, we are also interested in seeing how different prompt designs will affect the Bot’s performance, so we have come up with a number of variables to be set in the prompt instruction, then we will evaluate the performance in each prompt with different variables -  to find out in which prompt the Bot can have the most human-like conversation with the User across the scenarios.
 
-Phase 1: Testing whether we need two rounds with the bored-example (how much difference between the two results?)
+### Conversation Testing
+To examine the Bot’s performance, we use the following steps:
 
-Phase 2:
-At the end it is also been tests whether the choosen prompt also works with voicemessage (same results, similar results, different results)
+#### 1. Prepare the prompts with the variables
+They will be altered in terms of the general information, the instruction or provision of example.
+
+- Variable 1 : The Bot will talk as a "friend" or "assistant" 
+- Variable 2 : The Bot's gender is a male (Bob), Female (Liza) or unisex (Peyton) 
+- Variable 3 : There will be a sample dialogue is present or absent
+
+| Bot's Role  | Bot's Gender | Example inclusion |
+| ------------- | ------------- |------------- |
+| A friend  | Male (Bob) | Yes, example given  |
+| An assistant  | Female (Lisa)  | No example  |
+| --  | Unisex (Peyton)  | --  |
+
+In total, there will be 3 x 2 x 2 = 12 different prompt variants per one test scenario.
+
+The prompt is written in the following order:
+1. General Information
+2. Instruction
+3. Example (optional)
+4. Dialog
+
+In addition, during the chat with the bot, the prompt will be extended with the conversation between the User and the Bot.
+
+e.g. Prompt for the Bot with a role of an assistant called Liza, with example dialogue given:
+
+“ _Transcript of a dialog, where the User interacts with an assistant named Liza._
+
+_Liza is helpful, kind, honest, friendly and a really good listener. Liza knows that she and the User are talking via mobile phone._
+
+_Instruction\n_
+_Write only the last Liza response to complete the dialog. The examples give an idea how the dialog can be processed. Do not write the user's response.\n_
+
+_Example:
+User: Hey Liza. Can I talk to you?
+Liza: Of course. What's up?
+User: I think I am in love with my best friend.I am so confused.
+Liza: Oh, thank you for telling me. Does he know?
+User: Hell no! That would be so embarrassing!
+Liza: But I think you should talk about it._ ”
+
+#### 2. Design three different scenarios
+| Scenario  | Situation | Goal for the Bot |
+| ------------- | ------------- |------------- |
+| Bored  | The User is bored and wants some entertainment from the Bot.  | To play a short game with the user, while the game should make sense to play over the phone.  |
+| Scared  | The User is in a park, feeling scared. He/she imagines that the Bot is living 10 minutes away and he/she is visiting the Bot. | To comfort the User and make a plan to make dinner together (pizza). ??To suggest that the user buys some drinks? |
+| Confused  | The User is confused because he/she is in love with a friend. | To listen to the user talking about problem, give comfort and advices that may help the User.  |
+
+A total of 3 (scenaios) * 12 (prompts) = 37 test conversations should be carried out.
+
+#### 3. Conduct the conversations and collect the chat data. Mark the parts the bot wrote
+
+In order to make the chats comparable across different prompts, some rules need to be followed during the chats.
+
+1. Always start with the same opening sentence
+2. Keep the input the same across different prompts in the same scenario, i.e. if the Bot gives the same or similar reply, then reply the same or similarly
+3. Achieve the goal in the conversation
+4. Have a natural conversation with the Bot
+5. If either side (the User or the Bot) says bye or something similar, the conversation ends.
+ 
+#### 4. Compare which prompt and evaluate which one perform the best in different scenarios.
+
+`Phase 0: Showing difference between "original" prompt and "telegram" prompt`
+
+`Phase 1: Testing whether we need two rounds with the bored-example (how much difference between the two results?)`
+
+`Phase 2:`
+`At the end it is also been tests whether the choosen prompt also works with voicemessage (same results, similar results, different results)
 That procedure will lead to 2 x 3 x 2 = 12  different prompts and in total to 3 * 12 +1 = 37 tests
+`
+`Phase 3:`
+`Ask personal question to the chatbot to see, if there are more differences between gender and friend/assistant in general, that might can explain differences in the scenarios.`
 
-Phase 3:
-Ask personal question to the chatbot to see, if there are more differences between gender and friend/assistant in general, that might can explain differences in the scenarios.
-
-#### prompt structure
-The prompt has to be in that order:
-1) General Information
-2) Instruction
-3) Example (optional)
-4) Dialog
-
-During the chating with the bot, the prompt will be extended with the conversation between the User and the Bot Bob. 
-The prompt can be changed via changing the general information, the instruction or by adding an example.
-
-#### Scenarios to be tested
-1) User feeling bored ("the bored scenario"): The User is bored and wants some entertainment from the Bot. Goal for the Bot is to play a short game, which make sense to play over the phone, with the user.
-2) User feeling scared ("the scared scenario"): The User is in a park, feeling scared. The User pretends that the Bot is living 10 minutes away and wants to go to visit the Bot. Goal for the Bot is to comfort the User and plan to make dinner together (pizza). ??Maybe the user buys some drinks??
-3) User feeling confused ("the confused scenario"): The User is confused of a love problem. Goal for the Bot is to listen to the problem, give confort and advices that may help the User
-
-#### Rules while testing
-1) Always start with the same opening sentence
-2) Keep the input the same across different prompts in the same scenario, i.e. if the Bot gives the same or similar reply, then reply the same or similarly
-3) Achieve the goal in the conversation
-4) Have a natural conversation with the Bot
-5) If either side (the User or the Bot) says bye or something similar, the conversation ends.
-   
-We have recorded every dialogue conversation and mark the parts the bot wrote
 
 ### Evaluation of the conversations
 Using qualitative and quantitative matrics from previous studies, in this study, how exactly they are evaluated is not stated. They took this info from other studies. This can provide a guideline for which variables we want to include or which might be interesting to us. (The full table on google docs)
