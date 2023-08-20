@@ -21,15 +21,15 @@ There were competitions on open-domain AIs. One of which, the second Conversatio
 Following the evaluation framwork from ConvAI2, **See et al (2019)** also suggested that a good control of four attributes in a chit-chat dialogue, including repetition and question words, could improve conversation evaluation.
 
 ## Chatbot Set-up
-We decided to create the chatbot ("the Bot") via Alpaca LLM. (Reason for this is) This model is trained on social media data so it generates more conversation-like output. (fact-check needed)
+We decided to create the chatbot ("the Bot") via Alpaca LLM. Via testing on the webpage, we found out, that the ALpaca LLM reacted most appropiate for our program. Mainly, a friend-like behavoir was tested. The bot, we want to create, should have the abilty to act like a friend, pretend to be nearby and responses naturally. In contrast, OpenAI acts like a AI-assitance and communicates that openly. Because of that, OpenAI is not usable for our studys.
 
-We used Telegram Bot API to build our chatbot. It is a program ---
+We used Telegram Bot API to build our chatbot. By doing so, we set the framwork for our bot. In our scenarios, the user is writing on the mobile phone. For the scenarios it is vital, that the chatbot is portable and accessable. Telegram has a very easy set-up for a chatbot, that requieres python programming and the app.
 
-it uses the chat history as part of the prompt
+The basis of the chatbot is inspired by **aneeshjoy** and **viktor02**. That way, the chatbot can use the users written messages and the users voicemessages to response via LLM in written form. The response via voicemessage is mocked but not fully programmed. The bot also uses a preliminary stage of a chat history. It uses a fixed prompt as a first base and adds the rest of the conversation in every iteration. It has to be noted, that this stage works without a database and is therefore only mocked. In a real life scenario the bot would be downloaded by more then one person, which would lead to confusion. In our testing we bypassed that problem, by installing own bots with the same code for each user. In further implementation this mocked up has to be fixed with database like SQLlight.
 
 Different prompts can be used to maximize the best answer of the Bot. To find the best prompt, a evaluation should take place. 
 We expected the Bot can act as a friend in a variety of scenarios, e.g. when the user is feeling lost, scared, bored, curious ...
-Therefor we are going to test how the bot performs under different different scenarios. 
+Therefore we are going to test how the bot performs under different different scenarios. 
 
 For the functionality of the chatbot, a API-key for the telegram bot is requiered as well as a alpaca llama model.
 
