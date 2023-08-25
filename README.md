@@ -236,6 +236,7 @@ Can the chatbot response in a natural sounding speech?
 ## References
 - [A Taxonomy of Empathetic Response Intents in Human Social Conversations](https://aclanthology.org/2020.coling-main.429) (Welivita & Pu, COLING 2020)
 - Adiwardana 2018
+- Ng, J., Haller, E., & Murray, A. (2022). The ethical chatbot: A viable solution to socio-legal issues. Alternative Law Journal, 47(4), 308-313. https://doi.org/10.1177/1037969X221113598
 - Stockle 20000. Dialogue Act Modeling for Automatic Tagging and Recognition of Conversational Speech
 - Seeetal 2019
 - Veselica, Rozana, Gordana Dukic, and Khalid Hammes, eds. "Economic and Social Development (Book of Proceedings), 36th International Scientific Conference on Economic and Social Development–." Journal of Personal Selling & Sales Management 32.3 (2018): 333-348.
