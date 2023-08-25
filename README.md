@@ -1,5 +1,12 @@
 # alpaca_telegram_chatbot study project
 
+## Team Members
+| Name | Matriculation Number 
+| --- | --- |
+|Patrizia Lanz| |
+|Hiu Yan Yip| |
+|Svenja Carina Schulze| 6523385 |
+
 ## Introduction and Related Work
 
 Conversation and chats are very important to us. We basically talk to many different people every day, because we need to communicate to express what we want, to exchange intellectual ideas with one another, or to connect to people socially. Especially, we want to find somebody to talk to when we are in some situations. For instance, when we are in a low mood, or confused, just bored, we simply want to talk to somebody - who needs not to be very familiar with us, but rather act as a listener or a good company. The problem may still be here after the talk, but the stress level is somehow relieved. **relevant research to support this to be added**
