@@ -244,6 +244,7 @@ Can the chatbot response in a natural sounding speech?
 - https://abetlen.github.io/llama-cpp-python/
 - https://github.com/viktor02/llama_telegram_bot/blob/master/main.py
 - https://github.com/aneeshjoy/llama-telegram-bot/blob/main/bot.py
+- Ethics: https://journals.sagepub.com/doi/full/10.1177/1037969X221113598
 
 
 
