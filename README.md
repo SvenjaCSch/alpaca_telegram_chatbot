@@ -3,7 +3,7 @@
 ## Team Members
 | Name | Matriculation Number 
 | --- | --- |
-|Patrizia Lanz| |
+|Patrizia Lanz| 4143332 |
 |Hiu Yan Yip| |
 |Svenja Carina Schulze| 6523385 |
 
