@@ -9,21 +9,21 @@
 
 ## Introduction and Related Work
 
-Conversation and chats are very important to us. We basically talk to many different people every day, because we need to communicate to express what we want, to exchange intellectual ideas with one another, or to connect to people socially. Especially, we want to find somebody to talk to when we are in some situations. For instance, when we are in a low mood, or confused, just bored, we simply want to talk to somebody - who needs not to be very familiar with us, but rather act as a listener or a good company. The problem may still be here after the talk, but the stress level is somehow relieved. **relevant research to support this to be added**
+Conversation and chats are very important to us. We basically talk to many different people every day, because we need to communicate to express what we want, to exchange intellectual ideas with one another, or to connect to people socially. Especially, we want to find somebody to talk to when we are in some situations. For instance, when we are in a low mood, or confused, just bored, we simply want to talk to somebody - who needs not to be very familiar with us, but rather act as a listener or a good company. The problem may still be here after the talk, but the stress level is somehow relieved.
 
 What if we can have a chatbot that could offer some emotional support to us? We are interested in creating a chatbot with similar social functions - be a good listener in a friendly manner who can temporarily address our emotional needs.
 
-Chatbots are systems designed for extended conversations **(Jurafsky & Martin 2023)**. It tries to imitate the unstructured conversations or ‘chats’ characteristic of human-human interaction, mainly for entertainment, but also for practical purposes like making task-oriented agents more natural
+Chatbots are systems designed for extended conversations (Jurafsky & Martin 2023). It tries to imitate the unstructured conversations or ‘chats’ characteristic of human-human interaction, mainly for entertainment, but also for practical purposes like making task-oriented agents more natural
 
 AI Conversational Chatbots have gained so much popularity and attention these years. From more specific task-based chatbots deployed in large institutions like banks, to some more generic, open-domain, LLM-driven chatbot such as ChatGPT and Bing, various chatbots have been designed and created with different functions and purposes
 
 ### Previous research and related studies
 
-It has been difficult to create a chatbot capable of carrying meaningful open-domain conversations in natural languages. **Wei et al. (2019)** found that design factors in prompt showed impacts on the performance of the chatbots powered by Large Language Model through zero-shot response generation. In their studies, they had four prompts with different structures and personality designs for the chatbot. In dialogue analysis, the prompts with descriptive information format asked more questions, while in slot-filling analysis, prompts with the personality modifier had different performances between the structured format and descriptive format. They suggested that the conversation topic could be a reason for the difference. Yet, from the results a number of opportunities of LLM chatbots were discovered, such as their versatile responses and the social attributes inside them.
+It has been difficult to create a chatbot capable of carrying meaningful open-domain conversations in natural languages Wei et al. (2023) found that design factors in prompt showed impacts on the performance of the chatbots powered by Large Language Model through zero-shot response generation. In their studies, they had four prompts with different structures and personality designs for the chatbot. In dialogue analysis, the prompts with descriptive information format asked more questions, while in slot-filling analysis, prompts with the personality modifier had different performances between the structured format and descriptive format. They suggested that the conversation topic could be a reason for the difference. Yet, from the results a number of opportunities of LLM chatbots were discovered, such as their versatile responses and the social attributes inside them.
 
-Moreover, it has also been a challenge to evaluate chatbot and the relevant natural language generating system. Various researches have been conducted to test and evaluate the performance of chatbots from different perspectives. **Adiwardana et al (2020)** proposed an evaluation metric called Sensibleness and Specificity Average (SSA), which is an important element in human conversation. It primarily measures if the bot’s response in the conversation is logical and specific enough, and the experiment showed a strong correlation between the interactive SSA and perplexity. 
+Moreover, it has also been a challenge to evaluate chatbot and the relevant natural language generating system. Various researches have been conducted to test and evaluate the performance of chatbots from different perspectives. Adiwardana et al (2020) proposed an evaluation metric called Sensibleness and Specificity Average (SSA), which is an important element in human conversation. It primarily measures if the bot’s response in the conversation is logical and specific enough, and the experiment showed a strong correlation between the interactive SSA and perplexity. 
 
-There were competitions on open-domain AIs. One of which, the second Conversational Intelligence Challenge **(“ConvAI2”)**, aimed to find approaches to create a high-quality automatic evaluation tool so that the chatbot systems can be compared directly. This challenge proposed that apart from utterance-level performance, conversation-level performance like a ratio of question-answer pairs in a dialogue is also important in chatbot evaluations.
+There were competitions on open-domain AIs. One of which, the second Conversational Intelligence Challenge (“ConvAI2”) (Dinan et al. 2020), aimed to find approaches to create a high-quality automatic evaluation tool so that the chatbot systems can be compared directly. This challenge proposed that apart from utterance-level performance, conversation-level performance like a ratio of question-answer pairs in a dialogue is also important in chatbot evaluations.
 
 Following the evaluation framwork from ConvAI2, **See et al (2019)** also suggested that a good control of four attributes in a chit-chat dialogue, including repetition and question words, could improve conversation evaluation.
 
@@ -41,9 +41,7 @@ Therefore we are going to test how the bot performs under different different sc
 For the functionality of the chatbot, a API-key for the telegram bot is requiered as well as a alpaca llama model.
 
 ## Methodology
-As we expect the Bot can act as a friend under a variety of scenarios that humans may encounter in daily life, for example when the User is feeling lost, scared, bored, curious, etc. We want to test how the Bot performs under different scenarios. 
-
-At the same time, we are also interested in seeing how different prompt designs will affect the Bot’s performance, so we have come up with a number of variables to be set in the prompt instruction, then we will evaluate the performance in each prompt with different variables -  to find out in which prompt the Bot can have the most human-like conversation with the User across the scenarios.
+As we expect the Bot can act as a friend under a variety of scenarios that humans may encounter in daily life, we have come up with a number of variables to be set in the prompt instruction, then we will evaluate the performance in each prompt with different variables -  to find out in which prompt the Bot can have the most human-like conversation with the User across the scenarios.
 
 ### Conversation Testing
 To examine the Bot’s performance, we use the following steps:
@@ -265,16 +263,19 @@ Can the chatbot response in a natural sounding speech?
 
 ## References
 - [A Taxonomy of Empathetic Response Intents in Human Social Conversations](https://aclanthology.org/2020.coling-main.429) (Welivita & Pu, COLING 2020)
-- Adiwardana 2018
+- Adiwardana, D., Luong, M. T., So, D. R., Hall, J., Fiedel, N., Thoppilan, R., ... & Le, Q. V. (2020). Towards a human-like open-domain chatbot. arXiv preprint arXiv:2001.09977.
+- Dinan, E., Logacheva, V., Malykh, V., Miller, A., Shuster, K., Urbanek, J., ... & Weston, J. (2020). The second conversational intelligence challenge (convai2). In The NeurIPS'18 Competition: From Machine Learning to Intelligent Conversations (pp. 187-208). Springer International Publishing.
 - Ng, J., Haller, E., & Murray, A. (2022). The ethical chatbot: A viable solution to socio-legal issues. Alternative Law Journal, 47(4), 308-313. https://doi.org/10.1177/1037969X221113598
 - Stockle 20000. Dialogue Act Modeling for Automatic Tagging and Recognition of Conversational Speech
-- Seeetal 2019
+- See, A., Roller, S., Kiela, D., & Weston, J. (2019). What makes a good conversation? how controllable attributes affect human judgments. arXiv preprint arXiv:1902.08654.
 - Veselica, Rozana, Gordana Dukic, and Khalid Hammes, eds. "Economic and Social Development (Book of Proceedings), 36th International Scientific Conference on Economic and Social Development–." Journal of Personal Selling & Sales Management 32.3 (2018): 333-348.
-- Wei
+- Wei, J., Kim, S., Jung, H., & Kim, Y. H. (2023). Leveraging large language models to power chatbots for collecting user self-reported data. arXiv preprint arXiv:2301.05843.
+- Daniel Jurafsky & James H. Martin. (2023). Speech and Language Processing. Pearson Education.
 - https://www.jmir.org/2020/3/e16235/
 - https://abetlen.github.io/llama-cpp-python/
 - https://github.com/viktor02/llama_telegram_bot/blob/master/main.py
 - https://github.com/aneeshjoy/llama-telegram-bot/blob/main/bot.py
+- 
 
 
 
