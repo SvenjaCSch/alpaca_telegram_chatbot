@@ -166,12 +166,34 @@ Further questions about the selfimage of the chatbot:
 Table which one did the best
 Separate the three scenarios
 
-### Further analysis
-Dialogue length statistics
+#### Bored
+| Prompt  | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot |
+| ------------- | ------------- |------------- |------------- |
+| 1st Rank  | # | #  | # | # |
+| 2nd Rank  | #) | # | #| # |
+| 3rd Rank | #) | # | #| # |
+
+#### Scared
+| Prompt  | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot |
+| ------------- | ------------- |------------- |------------- |
+| 1st Rank  | # | #  | # | # |
+| 2nd Rank  | #) | # | #| # |
+| 3rd Rank | #) | # | #| # |
+
+#### Confused
+| Prompt  | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot |
+| ------------- | ------------- |------------- |------------- |
+| 1st Rank  | # | #  | # | # |
+| 2nd Rank  | #) | # | #| # |
+| 3rd Rank | #) | # | #| # |
+
+some word counrelated statistics on the dialogues are also presented.
+
   - Number of turn-taking
   - Number of utterances per turn
   - Number of words per sentence
   - etc
+
 ### Stat on dialogue/ emotional tags
 Analysis of the chatbot's performance / conversation as a whole - how humanlike is it?
  
