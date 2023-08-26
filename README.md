@@ -4,7 +4,7 @@
 | Name | Matriculation Number 
 | --- | --- |
 |Patrizia Lanz| 4143332 |
-|Hiu Yan Yip| | 6546973 |
+|Hiu Yan Yip| 6546973 |
 |Svenja Carina Schulze| 6523385 |
 
 ## Introduction and Related Work
