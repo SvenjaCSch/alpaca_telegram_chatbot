@@ -25,7 +25,7 @@ Moreover, it has also been a challenge to evaluate chatbot and the relevant natu
 
 There were competitions on open-domain AIs. One of which, the second Conversational Intelligence Challenge (“ConvAI2”) (Dinan et al. 2020), aimed to find approaches to create a high-quality automatic evaluation tool so that the chatbot systems can be compared directly. This challenge proposed that apart from utterance-level performance, conversation-level performance like a ratio of question-answer pairs in a dialogue is also important in chatbot evaluations.
 
-Following the evaluation framwork from ConvAI2, **See et al (2019)** also suggested that a good control of four attributes in a chit-chat dialogue, including repetition and question words, could improve conversation evaluation.
+Following the evaluation framwork from ConvAI2, See et al (2019) also suggested that a good control of four attributes in a chit-chat dialogue, including repetition and question words, could improve conversation evaluation.
 
 ## Chatbot Set-up
 We decided to create the chatbot ("the Bot") via Alpaca LLM. Via testing on this [https://chat.lmsys.org/](webpage), we found out, that the ALpaca LLM reacted most appropiate for our program. Mainly, a friend-like behavoir was tested. The bot, we want to create, should have the abilty to act like a friend, pretend to be nearby and responses naturally. In contrast, OpenAI acts like a AI-assitance and communicates that openly. Because of that, OpenAI is not usable for our experiments. For the ALpaca LLM, [https://pypi.org/project/llama-cpp-python/0.1.55/](llama-cpp-python) was used. The ALpaca Model itself had to be quantisized. In the end, we utilized a 7B Alpaca model.
