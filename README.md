@@ -162,9 +162,8 @@ Further questions about the selfimage of the chatbot:
 
 
 ## Results and Analysis
-### Ranking 
-Table which one did the best
-Separate the three scenarios
+
+The Tables above showed some basic word count statistics from the coversation dialogues, as well as the frequency of the "empathy act".
 
 #### Bored
 | Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
@@ -189,8 +188,6 @@ Separate the three scenarios
 | 2nd Rank  | | #) | # | #| # | |
 | 3rd Rank | | #) | # | #| # | |
 | 4th Rank | | #) | # | #| # | |
-
-The Tables above showed some basic word count statistics from the coversation dialogues, as well as the frequency of the "empathy act".
 
 #### Evaluation Score
 Input
