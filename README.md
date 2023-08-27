@@ -248,23 +248,23 @@ In our chatbot project, which was built to help users in different scenarios, it
 
 This ethical framework is rooted in a broader context of chatbot ethics and AI. It is drawn from the insights already discussed in “The Ethical Chatbot: A Viable Solution to socio-legal Issues” (Ng et al., 2022), which also helps us in our project to underline the central role that ethics plays in AI.
 
-Privacy and Transparency
+### Privacy and Transparency
 
 One key consideration is focusing on users’ privacy and transparency in our chatbot’s interactions. As Ng et al. (2022) discussed, this involves clarifying terms and informing users of the chatbot about terms and how personal information is used.  A problem might be that it conflicts with creating human-like interactions. The balance between keeping a natural conversation and ensuring transparency might be more difficult since users should not mistakenly believe they are interacting with a human being. 
 
-Legal Advice
+### Legal Advice
 
 In line with the legal chatbots explored by Ng et al. (2022), giving legal advice might be another struggle to face in the future evolvement of the chatbot. Balancing offering informative guidance and steering clear of legally binding recommendations might be challenging. The problem will lie in how we can provide helpful information without crossing the line of personalized legal counsel.
 
-Vulnerability and Inclusivity
+### Vulnerability and Inclusivity
 
 Another critical point includes addressing the needs of vulnerable users and ensuring inclusivity without looking down on them or marginalizing certain users. Diverse user requirements should be supported, and a one-size-fits-all approach should be avoided while providing ethical and practical assistance.
 
-Ethics and Responsible Innovation
+### Ethics and Responsible Innovation
 
 Another part discussed by Ng et al. (2022) includes the concept of responsible innovation. This includes listening to different points of view, concerns, and needs of individuals who interact with or are affected by the chatbot. By considering different viewpoints, a more well-rounded chatbot can be created to address a broader range of needs and concerns. 
 
-Conclusion
+### Summary
 
 After taking a closer look at ethics and the design of a chatbot, it is clear that a few challenges must be faced. When creating a chatbot in the future, it is essential to recognize aspects like privacy, transparency, human likeness, and meeting users' needs.
 By openly addressing these complex dynamics, chatbots in the future might be considered more ethical and, therefore, more trustworthy, which, in the end, might lead to a higher degree of acceptance among us.
