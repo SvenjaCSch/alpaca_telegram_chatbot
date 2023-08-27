@@ -167,28 +167,28 @@ Table which one did the best
 Separate the three scenarios
 
 #### Bored
-| Prompt  | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
-| ------------- | ------------- |------------- |------------- |------------- |
-| 1st Rank  | # | #  | # | # | |
-| 2nd Rank  | #) | # | #| # | |
-| 3rd Rank | #) | # | #| # | |
-| 4th Rank | #) | # | #| # | |
+| Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
+| ------------- | ------------- | ------------- |------------- |------------- |------------- |
+| 1st Rank  | | # | #  | # | # | |
+| 2nd Rank  | | #) | # | #| # | |
+| 3rd Rank | | #) | # | #| # | |
+| 4th Rank | | #) | # | #| # | |
 
 #### Scared
-| Prompt  | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
-| ------------- | ------------- |------------- |------------- |------------- |
-| 1st Rank  | # | #  | # | # | |
-| 2nd Rank  | #) | # | #| # | |
-| 3rd Rank | #) | # | #| # | |
-| 4th Rank | #) | # | #| # | |
+| Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
+| ------------- | ------------- | ------------- |------------- |------------- |------------- |
+| 1st Rank  | | # | #  | # | # | |
+| 2nd Rank  | | #) | # | #| # | |
+| 3rd Rank | | #) | # | #| # | |
+| 4th Rank | | #) | # | #| # | |
 
 #### Confused
-| Prompt  | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
-| ------------- | ------------- |------------- |------------- |------------- |
-| 1st Rank  | # | #  | # | # | |
-| 2nd Rank  | #) | # | #| # | |
-| 3rd Rank | #) | # | #| # | |
-| 4th Rank | #) | # | #| # | |
+| Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
+| ------------- | ------------- | ------------- |------------- |------------- |------------- |
+| 1st Rank  | | # | #  | # | # | |
+| 2nd Rank  | | #) | # | #| # | |
+| 3rd Rank | | #) | # | #| # | |
+| 4th Rank | | #) | # | #| # | |
 
 The Tables above showed some basic word count statistics from the coversation dialogues, as well as the frequency of the "empathy act".
  
