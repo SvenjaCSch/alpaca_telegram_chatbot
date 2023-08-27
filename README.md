@@ -271,7 +271,6 @@ Another part discussed by Ng et al. (2022) includes the concept of responsible i
 
 After taking a closer look at ethics and the design of a chatbot, it is clear that a few challenges must be faced. When creating a chatbot in the future, it is essential to recognize aspects like privacy, transparency, human likeness, and meeting users' needs.
 By openly addressing these complex dynamics, chatbots in the future might be considered more ethical and, therefore, more trustworthy, which, in the end, might lead to a higher degree of acceptance among us.
-![radarchart](radarchat3.jpeg)
 
 ## Conclusion and Perspectives
 ### Language
@@ -294,7 +293,6 @@ Can the chatbot response in a natural sounding speech?
 - https://abetlen.github.io/llama-cpp-python/
 - https://github.com/viktor02/llama_telegram_bot/blob/master/main.py
 - https://github.com/aneeshjoy/llama-telegram-bot/blob/main/bot.py
-- 
 
 
 
