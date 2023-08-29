@@ -190,7 +190,7 @@ The Tables above showed some basic word count statistics from the coversation di
 | 4th Rank | 20 | 6 | 220 | 153 | 11 | |
 
 #### Evaluation Score
-Input
+A measure that combines qualitative and quantitative metrics. It is calculated by summing up the evaluation points and then subtracting the errors that were made during interactions. It provides a holistic view of the chatbot's effectiveness, which takes successes and areas of improvement into account
 
 #### Meaningful turn-taking
 Input
