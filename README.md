@@ -184,8 +184,8 @@ The Tables above showed some basic word count statistics from the coversation di
 #### Confused
 | Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
 | ------------- | ------------- | ------------- |------------- |------------- |------------- |
-| 1st Rank  | | # | #  | # | # | |
-| 2nd Rank  | | #) | # | #| # | |
+| 1st Rank  | 28 | 9 | 278  | 199 | 12 | |
+| 2nd Rank  | 27 | 6 | 168 | 106 | 6 | |
 | 3rd Rank | | #) | # | #| # | |
 | 4th Rank | | #) | # | #| # | |
 
