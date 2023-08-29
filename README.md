@@ -186,8 +186,8 @@ The Tables above showed some basic word count statistics from the coversation di
 | ------------- | ------------- | ------------- |------------- |------------- |------------- |
 | 1st Rank  | 28 | 9 | 278  | 199 | 12 | |
 | 2nd Rank  | 27 | 6 | 168 | 106 | 6 | |
-| 3rd Rank | | #) | # | #| # | |
-| 4th Rank | | #) | # | #| # | |
+| 3rd Rank | 25 | 7 | 298 | 194 | 14 | |
+| 4th Rank | 20 | 6 | 220 | 153 | 11 | |
 
 #### Evaluation Score
 Input
