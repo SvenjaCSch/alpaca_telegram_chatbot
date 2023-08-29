@@ -168,18 +168,18 @@ The Tables above showed some basic word count statistics from the coversation di
 #### Bored
 | Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
 | ------------- | ------------- | ------------- |------------- |------------- |------------- |
-| 1st Rank  | | # | #  | # | # | |
-| 2nd Rank  | | #) | # | #| # | |
-| 3rd Rank | | #) | # | #| # | |
-| 4th Rank | | #) | # | #| # | |
+| 1st Rank  | 21 | 8 | 124  | 70 | 10 | |
+| 2nd Rank  | 20 | 9 | 246 | 157 | 11 | |
+| 3rd Rank | 18 | 4 | 50 | 26 | 6 | |
+| 4th Rank | 18 | 4 | 50 | 30 | 6 | |
 
 #### Scared
 | Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
 | ------------- | ------------- | ------------- |------------- |------------- |------------- |
-| 1st Rank  | | # | #  | # | # | |
-| 2nd Rank  | | #) | # | #| # | |
-| 3rd Rank | | #) | # | #| # | |
-| 4th Rank | | #) | # | #| # | |
+| 1st Rank  | 30 | 6 | 173  | 105 | 9 | |
+| 2nd Rank  | 29 | 6 | 112 | 54 | 8 | |
+| 3rd Rank | 28 | 6 | 140 | 79 | 6 |  |
+| 4th Rank | 28 | 2 | 61 | 32 | 13 | |
 
 #### Confused
 | Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
