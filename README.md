@@ -240,22 +240,28 @@ In the coversation logs we also annotated the each coversation turn with a dialo
 ## Discussion of Results 
 Through evaluating the conversations of the different scenarios, we aimed to comprehensively understand the performance of the chatbot's interaction with the users. Each conversation type was evaluated based on scoring a maximum of 30 points. This allowed us to evaluate the chatbot's response's quantitative and qualitative aspects.
 
-####Bored Scenario
+#### Bored Scenario
+
 When looking at conversations held when users expressed boredom, the chatbot overall demonstrated the ability to engage effectively and provide relevant information. Overall, it scored well when it comes to the quantitative and qualitative aspects but is challenged by the errors related to ignoring previous context, not finishing sentences, and creating whole dialogues by itself. These errors hinder the chatbot from maintaining a coherent conversation flow and robbing it of its naturalness. The total conversation score shows that this scenario has the lowest overall points and, therefore, has the worst performance of all three scenarios. 
 
-####Confused Scenario
+#### Confused Scenario
+
 In the confused scenario, the chatbot showed its capability to address users' confusion by providing informative responses. Overall, the quantitative and qualitative scores were high, which indicates that the chatbot often successfully helped the users with their problems. Nevertheless, a common problem was that the chat did not answer certain questions or create a whole dialogue by itself. It sometimes also forgot previous context, making it hard to continue the conversation. The errors in this scenario were more diverse, highlighting the complexity of the chatbot adapting responses to users’ inquiries. This scenario was ranked second highest in total score. 
 
-####Scared Scenario
+#### Scared Scenario
+
 The best scoring scenario was when the users were in a state of fear. This is where the chatbot provides reassuring information. By balancing both quantitative and qualitative responses, the users receive valuable guidance. This performance shows its potential as a tool to comfort users when they need comfort or are anxious. However, even if the chatbot offers support and seems to meet users' needs, a few areas of concern emerge in terms of errors. Those errors include spelling mistakes and not complete responses. These might impact the overall user experience, especially during sensitive conversations. The scared scenario had the least errors and the highest overall rank, providing a good base for future work. 
 
-####Common challenges 
+#### Common challenges 
+
 The responses are raw but promising for further research. Some challenges persisted across conversation types and scenarios like the bot not finishing sentences or creating a whole dialogue part by itself. Addressing these challenges in the future will be important as they directly influence users’ comprehension and interaction experience.
 
-####Empathy Aspects 
+#### Empathy Aspects 
+
 Empathy aspects are crucial in human interactions since they contribute to developing trust and understanding. In our scenario, they help reflect the ability of the chatbot to respond to users' emotions and concerns. The data evaluated suggests that there is a positive correlation between the presence of empathy aspects and a higher evaluation score. Furthermore, it can lead to the assumption that a variety of empathy acts may lead to a higher evaluation score. Still, the numbers are mixed and range between six and 14 across the highest-rated evaluations. Even though the number of empathy acts could depend on the total words spoken, which might explain why there is such a difference in those acts, there are still some deviations. For example, when looking at the scared scenario, there are conversations with many words and not as many empathy acts, but also conversations with a few words and comparably many empathy acts. Overall, there is a tendency toward the more words spoken by the bot, the more empathy acts are expressed, and the higher the empathy acts, the better the evaluation score. This can lead to the assumption that the accuracy of the response or relevance of information plays a role in whether the chatbot shows itself as empathic or not. 
 
-####For further improvement
+#### For further improvement
+
 The evaluation has provided insights that can guide future improvements. The main focus will be maintaining context and minimizing common errors, particularly regarding response coherence. 
 For this, it might be vital to include more natural language processing techniques but also context-aware algorithms. This can help with more fluid interactions.
 
