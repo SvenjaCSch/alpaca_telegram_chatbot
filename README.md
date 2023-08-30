@@ -319,6 +319,17 @@ Does the same prompt translated works on different languages evenly good?
 ### TTS
 Can the chatbot respond in a natural-sounding speech?
 
+## Appendix files 
+
+Evaluation Rubric in detail: https://docs.google.com/document/d/1gOaaY3d_I28JIt3fXaiT5L-yzv_hVJDMZeaXyHw8oWs/edit
+
+Analysis of the Scared Scenario:
+
+Analysis of the Bored Scenario:
+
+Analysis of the Confused Scenario: 
+
+
 
 ## References
 - [A Taxonomy of Empathetic Response Intents in Human Social Conversations](https://aclanthology.org/2020.coling-main.429) (Welivita & Pu, COLING 2020)
