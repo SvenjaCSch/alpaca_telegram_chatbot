@@ -325,7 +325,7 @@ Evaluation Rubric in detail: https://docs.google.com/document/d/1gOaaY3d_I28JIt3
 
 Analysis of the Scared Scenario:
 
-Analysis of the Bored Scenario:
+Analysis of the Bored Scenario: https://docs.google.com/document/d/1U5NoqbhALW4ParoZqnXdixMxoog6Vc3u_FJKdpfcoDg/edit
 
 Analysis of the Confused Scenario: 
 
