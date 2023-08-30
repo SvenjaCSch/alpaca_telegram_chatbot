@@ -164,10 +164,15 @@ Further questions about the self-image of the chatbot:
 ## Results and Analysis
 
 The Tables above showed some basic word count statistics from the conversation dialogues and the frequency of the "empathy act."
-We have summarized all our analysis and evaluation in this Google Docs link: https://docs.google.com/spreadsheets/d/1ciNv4bCSziIkvMCQfAemF9Y8L64ewytwyzq-d-yjkpc/edit#gid=0
+We have summarized all our analysis and evaluation in this Google Docs link: 
+[https://docs.google.com/spreadsheets/d/1ciNv4bCSziIkvMCQfAemF9Y8L64ewytwyzq-d-yjkpc/edit#gid=0](https://docs.google.com/spreadsheets/d/1ciNv4bCSziIkvMCQfAemF9Y8L64ewytwyzq-d-yjkpc/edit#gid=0)
+
 The first three spreadsheets are the values of our empathy analysis and the overall score.
+
 The following spreadsheets contain the evaluation tables for every scenario.
+
 Furthermore, we have listed an overall overview of all the scenarios and conversations and their scores. 
+
 Lastly, you can find our Rubric on which our evaluations are based. 
 
 #### Bored
