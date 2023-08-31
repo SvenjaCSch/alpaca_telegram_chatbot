@@ -180,12 +180,12 @@ Furthermore, we have listed an overall overview of all the scenarios and convers
 Lastly, you can find our Rubric on which our evaluations are based. 
 
 #### Bored
-| Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
+| Prompt type | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
 | ------------- | ------------- | ------------- |------------- |------------- |------------- |
-| 1st Rank  | 21 | 8 | 124  | 70 | 10 | |
-| 2nd Rank  | 20 | 9 | 246 | 157 | 11 | |
-| 3rd Rank | 18 | 4 | 50 | 26 | 6 | |
-| 4th Rank | 18 | 4 | 50 | 30 | 6 | |
+| 1st: female friend, with example | 21 | 8 | 124  | 70 | 10 | |
+| 2nd: unisex friend, no example | 20 | 9 | 246 | 157 | 11 | |
+| 3rd: unisex assistant, with example | 18 | 4 | 50 | 26 | 6 | |
+| 3rd: unisex friend, with example | 18 | 4 | 50 | 30 | 6 | |
 
 #### Scared
 | Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
