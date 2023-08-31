@@ -151,10 +151,10 @@ Chatbot Evaluation Rubric: https://docs.google.com/document/d/1gOaaY3d_I28JIt3fX
 2) Spelling errors (0 - -5)
 
 ## Results
-Results Scenario Bored:
+Results of Scenario Bored:
 [https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit](https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit?usp=sharing)
 
-Results Scenario Scared:
+Results of Scenario Scared:
 [https://docs.google.com/document/d/11-a8GP98tOLh13-U1gqdXVZZiMlx1mpGsaGLwX_LL9Y/edit?usp=sharing](https://docs.google.com/document/d/11-a8GP98tOLh13-U1gqdXVZZiMlx1mpGsaGLwX_LL9Y/edit?usp=sharing)
 
 Results of Scenario Confused:
