@@ -315,7 +315,7 @@ By openly addressing these complex dynamics, chatbots in the future might be con
 
 ## Conclusion and Prospects
 
-This project has attempted to build a chatbot aiming to address user's emotional need. We tried to evaluate the performance mainly in two categories, namely the linguistic performance and its empathy support.  
+This project has attempted to build a chatbot aiming to address user's emotional need. We came up with different prompts with varing roles and task description, hoping to see which prompt performed the best across different emotion scenarios. The performances were evaluated mainly in two categories, namely the linguistic performance and its empathy support. We found some consistent errors across conversation types and scenarios like the bot not finishing sentences or creating a whole dialogue part by itself. Addressing these challenges in the future will be important as they directly influence users’ comprehension and interaction experience.
 
 This project put focus on the chat performance generated in English, which is a extremely high resource langauge in LLM field. However, it will be interesting as well as significant to see how well the chatbot functions in other languages. Moreover, we are aware that people use audio messages as frequently as text messages. A study in the chatbot's text-to-speech function is also reletable in the direction of making a more human-like chatbot.
 
