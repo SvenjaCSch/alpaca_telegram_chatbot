@@ -280,13 +280,10 @@ The evaluation has provided insights that can guide future improvements. The mai
 For this, it might be vital to include more natural language processing techniques but also context-aware algorithms. This can help with more fluid interactions.
 
 
-
-### Any correlations with the highest ranking?
-
 ## Limitation
 1. Capacity of the chatbot: The number of maximum tokens may be too small. If the bot mistakenly created the dialogues by itself, it would have already taken up a lot of tokens, and the chat could not proceed before so the goal was reached.
 
-2. Chat test: not consistent reaction when 
+2. Interatcion variation during the chat test: when talking to the bot during the test in different scenarios, different testers had different reaction upon bot's errors. For example, one tester may have continued with the chat without mentioning the error, while another tester may have first pointed out to the bot that there is mistake, in the end the difference here may have yielded different conversation outcomes.
 
 3. Evaluation procedure: Only two separate raters are available for the evaluation. The evaluation results would sound more valid if more raters were involved.
 
