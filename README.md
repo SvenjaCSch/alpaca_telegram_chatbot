@@ -154,8 +154,11 @@ Chatbot Evaluation Rubric: https://docs.google.com/document/d/1gOaaY3d_I28JIt3fX
 Results Scenario Bored:
 [https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit](https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit?usp=sharing)
 
-Result Scenario Scared:
+Results Scenario Scared:
 [https://docs.google.com/document/d/11-a8GP98tOLh13-U1gqdXVZZiMlx1mpGsaGLwX_LL9Y/edit?usp=sharing](https://docs.google.com/document/d/11-a8GP98tOLh13-U1gqdXVZZiMlx1mpGsaGLwX_LL9Y/edit?usp=sharing)
+
+Results of Scenario Confused:
+[https://docs.google.com/document/d/1hd_76FUaNQnLsLVH5vZiBKJE8x8HDipulnQn2NI8y2s/edit#heading=h.4e4v4mypmbp4](https://docs.google.com/document/d/1hd_76FUaNQnLsLVH5vZiBKJE8x8HDipulnQn2NI8y2s/edit#heading=h.4e4v4mypmbp4)
 
 Further questions about the self-image of the chatbot:
 [https://docs.google.com/document/d/1xKrVjWne2XZ2UAKZTDJM5OEqGjsrJz-cO57QKYOX3Io/edit?usp=sharing](https://docs.google.com/document/d/1xKrVjWne2XZ2UAKZTDJM5OEqGjsrJz-cO57QKYOX3Io/edit?usp=sharing)
