@@ -254,6 +254,10 @@ In the conversation logs, we also annotated each conversation turn with a dialog
 ## Discussion of Results 
 Through evaluating the conversations of the different scenarios, we aimed to comprehensively understand the performance of the chatbot's interaction with the users. Each conversation type was evaluated based on scoring a maximum of 30 points. This allowed us to evaluate the chatbot's response's quantitative and qualitative aspects.
 
+![WhatsApp Image 2023-07-11 at 19 32 10](https://github.com/SvenjaCSch/alpaca_telegram_chatbot/assets/130850527/838ee8d1-87bd-4cbc-a1d4-afe94ff7c593)
+
+![WhatsApp Image 2023-07-18 at 11 17 21](https://github.com/SvenjaCSch/alpaca_telegram_chatbot/assets/130850527/b6ea9fc3-6944-4204-9877-dee7af67e818)
+
 #### Bored Scenario
 
 When looking at conversations held when users expressed boredom, the chatbot overall demonstrated the ability to engage effectively and provide relevant information. Overall, it scored well when it comes to the quantitative and qualitative aspects but is challenged by the errors related to ignoring previous context, not finishing sentences, and creating whole dialogues by itself. These errors hinder the chatbot from maintaining a coherent conversation flow and robbing it of its naturalness. The total conversation score shows that this scenario has the lowest overall points and, therefore, has the worst performance of all three scenarios. 
@@ -270,8 +274,7 @@ In the confused scenario, the chatbot showed its capability to address users' co
 
 The responses are raw but promising for further research. Some challenges persisted across conversation types and scenarios like the bot not finishing sentences or creating a whole dialogue part by itself. Addressing these challenges in the future will be important as they directly influence users’ comprehension and interaction experience.
 
-![WhatsApp Image 2023-07-11 at 19 32 10](https://github.com/SvenjaCSch/alpaca_telegram_chatbot/assets/130850527/838ee8d1-87bd-4cbc-a1d4-afe94ff7c593)
-
+![IMG_8142](https://github.com/SvenjaCSch/alpaca_telegram_chatbot/assets/130850527/a490ffee-6096-47c1-ae93-9c6fe8c602b7)
 
 #### Correlations between the prompts and the evaluation scores
 Different prompt variables were designed at first because we hypothesised that the gender role may have impact on the conversation quality, given that there may be stereotypical thoughts that "female" is usally a better listener or counsellor than a "male" or "unisex". From our results, there seems no such correlation between the gender role and the their evaluation scores, and the prompts with male role even ranked the highest in confused and scared scenarios.
