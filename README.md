@@ -335,7 +335,7 @@ Analysis of the Bored Scenario: https://docs.google.com/document/d/1U5NoqbhALW4P
 
 Analysis of the Confused Scenario: https://docs.google.com/document/d/1m1apP49jim9Wd48ayMjUnAj1Md0VVmMgUfHXFvZdLEA/edit#heading=h.d3z0eepp1zvp
 
-Sample screenshots of the chat tests: 
+Sample screenshots of the chat tests: https://docs.google.com/document/d/1XkowyXiqza9gEirCU_qvXWtFFWZSCyDP9-2Lwa3mjjQ/edit
 
 ## References
 - [A Taxonomy of Empathetic Response Intents in Human Social Conversations](https://aclanthology.org/2020.coling-main.429) (Welivita & Pu, COLING 2020)
