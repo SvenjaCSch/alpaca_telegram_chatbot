@@ -271,9 +271,9 @@ In the confused scenario, the chatbot showed its capability to address users' co
 The responses are raw but promising for further research. Some challenges persisted across conversation types and scenarios like the bot not finishing sentences or creating a whole dialogue part by itself. Addressing these challenges in the future will be important as they directly influence users’ comprehension and interaction experience.
 
 #### Correlations between the prompts and the evaluation scores
-Different prompt variables were designed at first because we hypothesised that the gender role may have impact on the conversation quality, given that there may be stereotypical thoughts that "female" is usally a better listener or counsellor than a "male". In our results, there seems no such correlation between the gender role and the their evaluation scores, and the prompts with male role even ranked the highest in confused and scared scenarios.
+Different prompt variables were designed at first because we hypothesised that the gender role may have impact on the conversation quality, given that there may be stereotypical thoughts that "female" is usally a better listener or counsellor than a "male" or "unisex". From our results, there seems no such correlation between the gender role and the their evaluation scores, and the prompts with male role even ranked the highest in confused and scared scenarios.
 
-The prompt varied in the role of friend and assistant for the same reason. However, prompts with assistant role scored as well as prompts with friend role. From the results we predicted that these two variables had no obvious impact on the conversation quality of a chatbot in providing emotional support.
+The prompts were distinguished between the role of friend and assistant for the same reason. However, prompts with assistant role scored as well as prompts with friend role. From the results we predicted that these two variables had no obvious impact on the conversation quality of a chatbot in providing emotional support.
 
 #### Empathy Aspects 
 
