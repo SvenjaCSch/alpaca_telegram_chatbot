@@ -270,6 +270,11 @@ In the confused scenario, the chatbot showed its capability to address users' co
 
 The responses are raw but promising for further research. Some challenges persisted across conversation types and scenarios like the bot not finishing sentences or creating a whole dialogue part by itself. Addressing these challenges in the future will be important as they directly influence users’ comprehension and interaction experience.
 
+#### Correlations between the prompts and the evaluation scores
+Different prompt variables were designed at first because we hypothesised that the gender role may have impact on the conversation quality, given that there may be stereotypical thoughts that "female" is usally a better listener or counsellor than a "male". In our results, there seems no such correlation between the gender role and the their evaluation scores, and the prompts with male role even ranked the highest in confused and scared scenarios.
+
+The prompt varied in the role of friend and assistant for the same reason. However, prompts with assistant role scored as well as prompts with friend role. From the results we predicted that these two variables had no obvious impact on the conversation quality of a chatbot in providing emotional support.
+
 #### Empathy Aspects 
 
 Empathy aspects are crucial in human interactions since they contribute to developing trust and understanding. In our scenario, they help reflect the ability of the chatbot to respond to users' emotions and concerns. The data evaluated suggests that there is a positive correlation between the presence of empathy aspects and a higher evaluation score. Furthermore, it can lead to the assumption that a variety of empathy acts may lead to a higher evaluation score. Still, the numbers are mixed and range between six and 14 across the highest-rated evaluations. Even though the number of empathy acts could depend on the total words spoken, which might explain why there is such a difference in those acts, there are still some deviations. For example, when looking at the scared scenario, there are conversations with many words and not as many empathy acts, but also conversations with a few words and comparably many empathy acts. Overall, there is a tendency toward the more words spoken by the bot, the more empathy acts are expressed, and the higher the empathy acts, the better the evaluation score. This can lead to the assumption that the accuracy of the response or relevance of information plays a role in whether the chatbot shows itself as empathic or not. 
@@ -280,7 +285,7 @@ The evaluation has provided insights that can guide future improvements. The mai
 For this, it might be vital to include more natural language processing techniques but also context-aware algorithms. This can help with more fluid interactions.
 
 
-## Limitation
+## Limitations
 1. Capacity of the chatbot: The number of maximum tokens may be too small. If the bot mistakenly created the dialogues by itself, it would have already taken up a lot of tokens, and the chat could not proceed before so the goal was reached.
 
 2. Interatcion variation during the chat test: when talking to the bot during the test in different scenarios, different testers had different reaction upon bot's errors. For example, one tester may have continued with the chat without mentioning the error, while another tester may have first pointed out to the bot that there is mistake, in the end the difference here may have yielded different conversation outcomes.
@@ -292,19 +297,19 @@ Our chatbot project aimes to help users emotionally in different scenarios, so w
 
 This ethical framework is rooted in a broader context of chatbot ethics and AI. It is drawn from the insights already discussed in “The Ethical Chatbot: A Viable Solution to socio-legal Issues” (Ng et al., 2022), which also helps us in our project to underline the central role that ethics plays in AI.
 
-### Privacy and Transparency
+### Privacy and transparency
 
 One key consideration is focusing on users’ privacy and transparency in our chatbot’s interactions. As Ng et al. (2022) discussed, this involves clarifying terms and informing users of the chatbot about terms and how personal information is used.  A problem might be that it conflicts with creating human-like interactions. The balance between keeping a natural conversation and ensuring transparency might be more difficult since users should not mistakenly believe they are interacting with a human being. 
 
-### Vulnerability and Inclusivity of Different Users
+### Vulnerability and inclusivity of different users
 
 Another critical point includes addressing the needs of vulnerable users and ensuring inclusivity without looking down on them or marginalizing certain users. On the one hand, diverse user requirements should be supported accpording to their individual needs and not be too geneirc, so that it will not sound or look like a cold robotic assistant. On the other hand, a one-size-fits-all approach should be avoided while providing ethical and practical assistance. 
 
-### Ethics and Responsible Innovation
+### Ethical and responsible innovations
 
 Another part discussed by Ng et al. (2022) includes the concept of responsible innovation. This includes listening to different points of view, concerns, and needs of individuals who interact with or are affected by the chatbot. By considering different viewpoints, a more well-rounded chatbot can be created to address a broader range of needs and concerns. 
 
-### Legal Advice
+### Legal advice from a bot
 
 In line with the legal chatbots explored by Ng et al. (2022), giving legal advice might be another struggle to face in the future evolvement of the chatbot. Balancing offering informative guidance and steering clear of legally binding recommendations might be challenging. The problem will lie in how we can provide helpful information without crossing the line of personalized legal counsel.
 
