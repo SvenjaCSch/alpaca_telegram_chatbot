@@ -190,18 +190,18 @@ Lastly, you can find our Rubric on which our evaluations are based.
 #### Scared
 | Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
 | ------------- | ------------- | ------------- |------------- |------------- |------------- |
-| 1st Rank  | 30 | 6 | 173  | 105 | 9 | |
-| 2nd Rank  | 29 | 6 | 112 | 54 | 8 | |
-| 3rd Rank | 28 | 6 | 140 | 79 | 6 |  |
-| 4th Rank | 28 | 2 | 61 | 32 | 13 | |
+| 1st: male assistant, no example | 30 | 6 | 173  | 105 | 9 | |
+| 2nd: female assistant, no example  | 29 | 6 | 112 | 54 | 8 | |
+| 3rd: female friend, no example | 28 | 6 | 140 | 79 | 6 |  |
+| 3rd: male assistant, no example | 28 | 2 | 61 | 32 | 13 | |
 
 #### Confused
 | Prompt  | Evaluation Score | Number of meaningful turn-taking | Number of Words* | Number of Words from the Bot | Number of empathy act |
 | ------------- | ------------- | ------------- |------------- |------------- |------------- |
-| 1st Rank  | 28 | 9 | 278  | 199 | 12 | |
-| 2nd Rank  | 27 | 6 | 168 | 106 | 6 | |
-| 3rd Rank | 25 | 7 | 298 | 194 | 14 | |
-| 4th Rank | 20 | 6 | 220 | 153 | 11 | |
+| 1st: male friend, no example | 28 | 9 | 278  | 199 | 12 | |
+| 2nd: unisex assistant, no example  | 27 | 6 | 168 | 106 | 6 | |
+| 3rd: female assistant, no example | 25 | 7 | 298 | 194 | 14 | |
+| 3rd: unisex friend, with example | 20 | 6 | 220 | 153 | 11 | |
 
 #### Evaluation Score
 A measure that combines qualitative and quantitative metrics. It is calculated by summing up the evaluation points and then subtracting the errors that were made during interactions. It provides a holistic view of the chatbot's effectiveness, which takes successes and areas of improvement into account.
