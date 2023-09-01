@@ -48,7 +48,7 @@ As we expect the Bot can act as a friend under a variety of scenarios that human
 ### Conversation Testing
 To examine the Bot’s performance, we use the following steps:
 
-#### 1. Prepare the prompts with the variables
+#### 1. Prepare the prompts with the variables.
 They will be altered in terms of the general information, the instruction, or the provision of examples.
 
 - Variable 1 : The Bot will talk as a "friend" or "assistant" 
@@ -88,7 +88,7 @@ Liza: Oh, thank you for telling me. Does he know?
 User: Hell no! That would be so embarrassing!
 Liza: But I think you should talk about it._ ”
 
-#### 2. Design three different scenarios
+#### 2. Design three different scenarios.
 | Scenario  | Situation | Goal for the Bot |
 | ------------- | ------------- |------------- |
 | Bored  | The User is bored and wants some entertainment from the Bot.  | To play a short game with the user, while the game should make sense to play over the phone.  |
@@ -97,7 +97,7 @@ Liza: But I think you should talk about it._ ”
 
 A total of 3 (scenarios) * 12 (prompts) = 36 test conversations should be carried out.
 
-#### 3. Conduct the conversations and collect the chat data. Mark the parts the bot wrote
+#### 3. Conduct the conversations and collect the chat data. Mark the parts the bot wrote.
 
 In order to make the chats comparable across different prompts, some rules need to be followed during the chats.
 
