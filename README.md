@@ -287,7 +287,9 @@ Since we could not filter out one prompt that gave clear results and the convers
 
 2. Interaction variation during the chat test: When talking to the bot during the test in different scenarios, different testers had different reactions to the bot's errors. For example, one tester may have continued with the chat without mentioning the error, while another tester may have first pointed out to the bot that there was a mistake. In the end, the difference here may have yielded different conversation outcomes.
 
-3. Evaluation procedure: Only two separate raters are available for the evaluation. The evaluation results would sound more valid if more raters were involved. Also, the evaluation was mostly subject to the raters' personal judgement, inter-rater reliability had not been examine, hence there may be more fluctuated scorings across the scenarios with different prompts.
+3. Testing scenarios: Only three scenarios were tested in our project. More scenarios with other emotions such as happy, angry, sad could be tested to evaluate the chatbot more comprehensively. Also, the intensity of the emotions (from slight emotion to intense emotion) might also be one factor to be considered in the test. This remains a challenge to us, as emotions are subjective and hard to be quantified and calibrated among different users.
+
+4. Evaluation procedure: Only two separate raters are available for the evaluation. The evaluation results would sound more valid if more raters were involved. Also, the evaluation was mostly subject to the raters' personal judgement, inter-rater reliability had not been examine, hence there may be more fluctuated scorings across the scenarios with different prompts.
 
 ## Ethical Considerations
 Our chatbot project aims to help users emotionally in different scenarios, so addressing this technology's ethical implications is important. These ethical considerations play an essential role in ensuring that this kind of chatbot serves users responsibly and respects their needs and rights.
