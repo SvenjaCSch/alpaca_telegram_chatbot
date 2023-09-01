@@ -319,7 +319,7 @@ By openly addressing these complex dynamics, chatbots in the future might be con
 
 This project has attempted to build a chatbot aiming to address user's emotional needs. We came up with different prompts with varying roles and task descriptions, hoping to see which prompt performed the best across different emotion scenarios. The performances were evaluated mainly in two categories: linguistic performance and empathy support. We found our prompt design had little effect, and there is no clear pattern in the chatbot's performance. Several errors, such as turn-breaks or self-made partial or complete dialogues, were found during the chats. More work on the prompts is needed to improve the interaction experience.
 
-This project focuses on the chat performance generated in English, which is an extremely high-resource language in the LLM field. However, it will be interesting as well as significant to see how well the chatbot functions in other languages. Moreover, we are aware that people use audio messages as frequently as text messages. A study of the chatbot's text-to-speech function is also reletable to make a more human-like chatbot.
+This project focuses on the chat performance generated in English, which is an extremely high-resource language in the LLM field. It will be interesting and also significant to see the chatbot functioning in other languages. Moreover, we are aware that people use audio messages as frequently as text messages. A study of the chatbot's text-to-speech function is also reletable to make a more human-like chatbot.
 
 
 ## Appendix files 
