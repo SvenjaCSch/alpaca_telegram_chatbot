@@ -95,7 +95,7 @@ Liza: But I think you should talk about it._ ”
 | Scared  | The User is in a park, feeling scared. He/she imagines that the Bot is living 10 minutes away and he/she is visiting the Bot. | To comfort the User and make a plan to make dinner together (pizza). ??To suggest that the user buys some drinks? |
 | Confused  | The User is confused because he/she is in love with a friend. | To listen to the user talking about the problem, give comfort and advice that may help the User.  |
 
-A total of 3 (scenarios) * 12 (prompts) = 37 test conversations should be carried out.
+A total of 3 (scenarios) * 12 (prompts) = 36 test conversations should be carried out.
 
 #### 3. Conduct the conversations and collect the chat data. Mark the parts the bot wrote
 
@@ -140,7 +140,6 @@ As previously mentioned in the introduction, there were studies that proposed ev
 4) **Good**: The chatbot's performance is quite good - with only minor areas for improvement.
 5) **Excellent**: The chatbot's performance is outstanding -  little to no room for improvement.
 
-Chatbot Evaluation Rubric: https://docs.google.com/document/d/1gOaaY3d_I28JIt3fXaiT5L-yzv_hVJDMZeaXyHw8oWs/edit
 
 #### Conversation errors (double weighting)
 1) Not answering the question, for example (leaving out information) (0 - -5)
