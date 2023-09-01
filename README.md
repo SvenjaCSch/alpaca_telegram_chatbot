@@ -124,11 +124,11 @@ An independent rater who had not involved in the chat would first read the stati
 6) Ease of Understanding: How easily can the chatbot’s responses be understood, avoiding confusion? (1 to 5)
 
 #### Evaluation categorization
-1) **Poor**: The chatbot's performance is significantly lacking - there is a major need for improvement.
-2) **Below Average**: The chatbot's performance is below satisfactory - and there is room for improvement.
-3) **Satisfactory**: The chatbot's performance is acceptable - but there are some areas that can be improved.
-4) **Good**: The chatbot's performance is quite good - with only minor areas for improvement.
-5) **Excellent**: The chatbot's performance is outstanding -  little to no room for improvement.
+1) **Poor** (1 point): The chatbot's performance is significantly lacking - there is a major need for improvement.
+2) **Below Average** (2 points): The chatbot's performance is below satisfactory - and there is room for improvement.
+3) **Satisfactory** (3 points): The chatbot's performance is acceptable - but there are some areas that can be improved.
+4) **Good** (4 points): The chatbot's performance is quite good - with only minor areas for improvement.
+5) **Excellent** (5 points): The chatbot's performance is outstanding -  little to no room for improvement.
 
 
 #### Conversation errors (double weighting) 
