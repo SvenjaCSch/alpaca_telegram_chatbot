@@ -23,6 +23,8 @@ It has been difficult to create a chatbot capable of carrying meaningful open-do
 
 Moreover, it has also been a challenge to evaluate chatbots and the relevant natural language-generating system. Various researches have been conducted to test and evaluate the performance of chatbots from different perspectives. Adiwardana et al. (2020) proposed an evaluation metric called Sensibleness and Specificity Average (SSA), which is an important element in human conversation. It primarily measures if the bot’s response in the conversation is logical and specific enough, and the experiment showed a strong correlation between the interactive SSA and perplexity. 
 
+Furthermore, there were other suggestions for evaluating chatbots based on their performance and how people rate them. One of them was illustrated in “Economic and Social Development – 36th International Scientific Conference on Economic and Social Development – “Building Resilient Society”” by Verselica et al. (2018). The chapter “Chatbot evaluation metrics: Review paper” by Dijana Peras (Verselica et al., 2018) addresses the growing popularity of chatbots but the lack of a standardized chatbot evaluation framework to assess a chatbot's success. To solve this problem, the chapter proposes comprehensive chatbot evaluation metrics based on five perspectives, like the user's experience or linguistics. 
+
 There were competitions on open-domain AIs. One of which, the second Conversational Intelligence Challenge (“ConvAI2”) (Dinan et al. 2020), aimed to find approaches to create a high-quality automatic evaluation tool so that the chatbot systems can be compared directly. This challenge proposed that apart from utterance-level performance, conversation-level performance, like a ratio of question-answer pairs in a dialogue, is also important in chatbot evaluations.
 
 Following the evaluation framework from ConvAI2, See et al (2019) also suggested that good control of four attributes in a chit-chat dialogue, including repetition and question words, could improve conversation evaluation.
@@ -122,13 +124,14 @@ That procedure will lead to 2 x 3 x 2 = 12  different prompts and in total to 3 
 
 
 ### Evaluation of the conversations
-Using qualitative and quantitative metrics from previous studies, in this study, how exactly they are evaluated is not stated. They took this info from other studies. This can provide a guideline for which variables we want to include or which might be interesting to us. (The full table is on Google Docs)
+As previously mentioned in the introduction, there were studies that proposed evaluation metrics that help evaluate a chatbot's performance. We took the evaluation metrics presented by Verselica et al. (2018) as a guideline to create our own. Some perspectives were left out since we did not consider them as important for this project. Our main focus lies on the user's experience and on the linguistic performance of the chatbot.  
+(The full table is on Google Docs and can be found in the appendix part.)
 1) Quantity: Task Completion: Measure how effectively the chatbot helps users achieve their goals and complete tasks during the conversation.
 2) Quality: Accuracy of Responses: Evaluate the correctness and relevance of the chatbot's answers to user queries and prompts.
 3) Manner: Naturalness: Assess how well the chatbot maintains a natural and human-like conversational style, making the interaction more pleasant and engaging.
 4) Language Variation: Analyze the chatbot's ability to use a variety of language and expressions to avoid repetitive responses and maintain an interesting conversation.
 5) Relation: Context Sensitiveness: Determine how well the chatbot responds based on the context of the conversation, showing an understanding of user input and providing appropriate replies.
-6) Ease of Understanding: How easily are the chatbot’s responses understood, avoiding confusion.
+6) Ease of Understanding: How easily can the chatbot’s responses be understood, avoiding confusion?
 
 #### Evaluation categorization
 1) **Poor**: The chatbot's performance is significantly lacking - there is a major need for improvement.
@@ -204,13 +207,13 @@ Lastly, you can find our Rubric on which our evaluations are based.
 | 3rd: unisex friend, with example | 20 | 6 | 220 | 153 | 11 | |
 
 #### Evaluation Score
-A measure that combines qualitative and quantitative metrics. It is calculated by summing up the evaluation points and then subtracting the errors that were made during interactions. It provides a holistic view of the chatbot's effectiveness, which takes successes and areas of improvement into account.
+A measure that combines qualitative and quantitative metrics. It is calculated by summing up the evaluation points and then subtracting the errors that were made during interactions. It provides a holistic view of the chatbot's effectiveness, which considers successes and areas of improvement.
 
 #### Meaningful turn-taking
-The meaningful turn-taking is counted in conversation pairs, for example a question and an aswer will be counted as one turn-taking. Only turn-taking created by the user and bot together was regarded as a meaningful turn-taking. Self-made dialogue from the bot was excluded from the count, even though it also created or simulated the user's statement or response.
+The meaningful turn-taking is counted in conversation pairs. For example, a question and an answer will be counted as one turn-taking. Only turn-taking created by the user and bot together was regarded as meaningful turn-taking. Self-made dialogue from the bot was excluded from the count, even though it also created or simulated the user's statement or response.
 
 #### Empathy Acts
-In order to take a closer look at the responses generated by the bot in terms of being playful / engaged / empathetic, hence determining its "social engagedness", we followed the framework from Anuradha Welivita and Pearl Pu's Taxonomy of Empathetic Response Intents for a more fine-grained analysis of what kind of engagement the bot will show in the dialogues. As the original classification was based on empathy dialogues, it may not be enough to cover our testing. For example in the bored situation, there may not be such "empathetic" utterances, so we further added some categories to the framework to enrich the classification.
+In order to take a closer look at the responses generated by the bot in terms of being playful / engaged / empathetic, hence determining its "social engagedness", we followed the framework from Anuradha Welivita and Pearl Pu's Taxonomy of Empathetic Response Intents for a more fine-grained analysis of what kind of engagement the bot will show in the dialogues. As the original classification was based on empathy dialogues, it may not be enough to cover our testing. For example, in the bored situation, there may not be such "empathetic" utterances, so we further added some categories to the framework to enrich the classification.
    
 | Category | Description 
 | --- | --- |
@@ -268,12 +271,12 @@ In the confused scenario, the chatbot showed its capability to address users' co
 
 #### Common challenges 
 
-The responses are raw but promising for further research. Some challenges persisted across conversation types and scenarios like the bot not finishing sentences or creating a whole dialogue part by itself. Addressing these challenges in the future will be important as they directly influence users’ comprehension and interaction experience.
+The responses are raw but promising for further research. There are still some errors that must be tackled in many conversations. The most common errors are the bot creating a part of the dialogue by itself, not finishing sentences, and just ending the dialogue by itself. Addressing these challenges in the future will be vital as they directly influence users’ comprehension and interaction experience.
 
 #### Correlations between the prompts and the evaluation scores
-Different prompt variables were designed at first because we hypothesised that the gender role may have impact on the conversation quality, given that there may be stereotypical thoughts that "female" is usally a better listener or counsellor than a "male" or "unisex". From our results, there seems no such correlation between the gender role and the their evaluation scores, and the prompts with male role even ranked the highest in confused and scared scenarios.
+Different prompt variables were designed at first because we hypothesized that the gender role may have an impact on the conversation quality, given that there may be stereotypical thoughts that "female" is usually a better listener or counselor than a "male" or "unisex". From our results, there seems to be no such correlation between the gender role and their evaluation scores, and the prompts with the male role even ranked the highest in confused and scared scenarios.
 
-The prompts were distinguished between the role of friend and assistant for the same reason. However, prompts with assistant role scored as well as prompts with friend role. From the results we predicted that these two variables had no obvious impact on the conversation quality of a chatbot in providing emotional support.
+The prompts were distinguished between the role of friend and assistant for the same reason. However, prompts with the assistant role scored, as well as prompts with the friend role. From the results, we predicted that these two variables had no obvious impact on the conversation quality of a chatbot in providing emotional support.
 
 #### Empathy Aspects 
 
@@ -288,12 +291,12 @@ For this, it might be vital to include more natural language processing techniqu
 ## Limitations
 1. Capacity of the chatbot: The number of maximum tokens may be too small. If the bot mistakenly created the dialogues by itself, it would have already taken up a lot of tokens, and the chat could not proceed before so the goal was reached.
 
-2. Interatcion variation during the chat test: when talking to the bot during the test in different scenarios, different testers had different reaction upon bot's errors. For example, one tester may have continued with the chat without mentioning the error, while another tester may have first pointed out to the bot that there is mistake, in the end the difference here may have yielded different conversation outcomes.
+2. Interaction variation during the chat test: When talking to the bot during the test in different scenarios, different testers had different reactions to the bot's errors. For example, one tester may have continued with the chat without mentioning the error, while another tester may have first pointed out to the bot that there was a mistake. In the end, the difference here may have yielded different conversation outcomes.
 
 3. Evaluation procedure: Only two separate raters are available for the evaluation. The evaluation results would sound more valid if more raters were involved.
 
 ## Ethical Considerations
-Our chatbot project aimes to help users emotionally in different scenarios, so we also find it important to address this technology's ethical implications. These ethical considerations play an essential role in ensuring that this kind of chatbot serves users responsibly and respects their needs and rights.
+Our chatbot project aims to help users emotionally in different scenarios, so we also find it important to address this technology's ethical implications. These ethical considerations play an essential role in ensuring that this kind of chatbot serves users responsibly and respects their needs and rights.
 
 This ethical framework is rooted in a broader context of chatbot ethics and AI. It is drawn from the insights already discussed in “The Ethical Chatbot: A Viable Solution to socio-legal Issues” (Ng et al., 2022), which also helps us in our project to underline the central role that ethics plays in AI.
 
@@ -303,7 +306,7 @@ One key consideration is focusing on users’ privacy and transparency in our ch
 
 ### Vulnerability and inclusivity of different users
 
-Another critical point includes addressing the needs of vulnerable users and ensuring inclusivity without looking down on them or marginalizing certain users. On the one hand, diverse user requirements should be supported accpording to their individual needs and not be too geneirc, so that it will not sound or look like a cold robotic assistant. On the other hand, a one-size-fits-all approach should be avoided while providing ethical and practical assistance. 
+Another critical point includes addressing the needs of vulnerable users and ensuring inclusivity without looking down on them or marginalizing certain users. On the one hand, diverse user requirements should be supported according to their individual needs and not be too generic, so that it will not sound or look like a cold robotic assistant. On the other hand, a one-size-fits-all approach should be avoided while providing ethical and practical assistance. 
 
 ### Ethical and responsible innovations
 
@@ -320,9 +323,9 @@ By openly addressing these complex dynamics, chatbots in the future might be con
 
 ## Conclusion and Prospects
 
-This project has attempted to build a chatbot aiming to address user's emotional need. We came up with different prompts with varing roles and task description, hoping to see which prompt performed the best across different emotion scenarios. The performances were evaluated mainly in two categories, namely the linguistic performance and its empathy support. We found our prompt design had little effect and there is no clear pattern on chatbot's performance. Several errors such as turn-breaks or self-made partial or complete dialogues were found during the chats. More work on the prompts are needed to improve the interaction experience.
+This project has attempted to build a chatbot aiming to address user's emotional needs. We came up with different prompts with varying roles and task descriptions, hoping to see which prompt performed the best across different emotion scenarios. The performances were evaluated mainly in two categories: linguistic performance and empathy support. We found our prompt design had little effect, and there is no clear pattern in the chatbot's performance. Several errors, such as turn-breaks or self-made partial or complete dialogues, were found during the chats. More work on the prompts is needed to improve the interaction experience.
 
-This project put focus on the chat performance generated in English, which is a extremely high resource langauge in LLM field. However, it will be interesting as well as significant to see how well the chatbot functions in other languages. Moreover, we are aware that people use audio messages as frequently as text messages. A study in the chatbot's text-to-speech function is also reletable in the direction of making a more human-like chatbot.
+This project focuses on the chat performance generated in English, which is an extremely high-resource language in the LLM field. However, it will be interesting as well as significant to see how well the chatbot functions in other languages. Moreover, we are aware that people use audio messages as frequently as text messages. A study of the chatbot's text-to-speech function is also reletable to make a more human-like chatbot.
 
 
 ## Appendix files 
