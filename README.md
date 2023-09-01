@@ -124,14 +124,18 @@ That procedure will lead to 2 x 3 x 2 = 12  different prompts and in total to 3 
 
 
 ### Evaluation of the conversations
-As previously mentioned in the introduction, there were studies that proposed evaluation metrics that help evaluate a chatbot's performance. We took the evaluation metrics presented by Verselica et al. (2018) as a guideline to create our own. Some perspectives were left out since we did not consider them as important for this project. Our main focus lies on the user's experience and on the linguistic performance of the chatbot.  
+As previously mentioned in the introduction, there were studies that proposed evaluation metrics that help evaluate a chatbot's performance. We took the evaluation metrics presented by Verselica et al. (2018) as a guideline to create our own. Some perspectives were left out since we did not consider them as important for this project. Our main focus lies on the user's experience and on the linguistic performance of the chatbot. 
+
+An independent rater who had not involved in the chat would first read the static conersation logs, then give a score to each the following perspectives, based on their understanding and judgement of the conversation quality, as well as how well the chatbot reached the goal under the that particular scenario.
+
 (The full table is on Google Docs and can be found in the appendix part.)
-1) Quantity: Task Completion: Measure how effectively the chatbot helps users achieve their goals and complete tasks during the conversation.
-2) Quality: Accuracy of Responses: Evaluate the correctness and relevance of the chatbot's answers to user queries and prompts.
-3) Manner: Naturalness: Assess how well the chatbot maintains a natural and human-like conversational style, making the interaction more pleasant and engaging.
-4) Language Variation: Analyze the chatbot's ability to use a variety of language and expressions to avoid repetitive responses and maintain an interesting conversation.
-5) Relation: Context Sensitiveness: Determine how well the chatbot responds based on the context of the conversation, showing an understanding of user input and providing appropriate replies.
-6) Ease of Understanding: How easily can the chatbot’s responses be understood, avoiding confusion?
+
+1) Quantity: Task Completion: Measure how effectively the chatbot helps users achieve their goals and complete tasks during the conversation. (1 to 5)
+2) Quality: Accuracy of Responses: Evaluate the correctness and relevance of the chatbot's answers to user queries and prompts. (1 to 5)
+3) Manner: Naturalness: Assess how well the chatbot maintains a natural and human-like conversational style, making the interaction more pleasant and engaging. (1 to 5)
+4) Language Variation: Analyze the chatbot's ability to use a variety of language and expressions to avoid repetitive responses and maintain an interesting conversation. (1 to 5)
+5) Relation: Context Sensitiveness: Determine how well the chatbot responds based on the context of the conversation, showing an understanding of user input and providing appropriate replies. (1 to 5)
+6) Ease of Understanding: How easily can the chatbot’s responses be understood, avoiding confusion? (1 to 5)
 
 #### Evaluation categorization
 1) **Poor**: The chatbot's performance is significantly lacking - there is a major need for improvement.
@@ -142,19 +146,19 @@ As previously mentioned in the introduction, there were studies that proposed ev
 
 
 #### Conversation errors (double weighting)
-1) Not answering the question, for example (leaving out information) (0 - -5)
-2) Ignoring/forgetting the previous context (0 - -5)
-3) Bot creates the whole dialogue by itself (0 - -5)
+1) Not answering the question, for example (leaving out information) (0 to -5)
+2) Ignoring/forgetting the previous context (0 to -5)
+3) Bot creates the whole dialogue by itself (0 to -5)
 4) Not finishing sentences (0 - -5)
 5) Bot just ends the dialogue (0 - -5)
 
 #### Structural error (single weighting):
-1) Repetition (0 - -5)
-2) Spelling errors (0 - -5)
+1) Repetition (0 to -5)
+2) Spelling errors (0 to -5)
 
 We decided to incorporate error points into our evaluation to enhance its realism. The approach involves both double-weighted and single-weighted error points. The double-weighted errors underline the severity of the errors in the conversation, while the single-weighted errors might be seen as more minor errors. The goal is a natural conversation flow, and in order to maintain it, it is important for the chatbot to, for example, not complete the chat by itself. On the other hand, a natural conversation flow might not be very much disturbed by, for example, a spelling error.
 
-A conversation's highest score is 30 points, with excellent performance and no errors. 
+A conversation's highest score is 30 points, with excellent performance and no errors.  
 
 ## Results
 Results of Scenario Bored:
@@ -297,7 +301,7 @@ Since we could not filter out one prompt that gave clear results and the convers
 
 2. Interaction variation during the chat test: When talking to the bot during the test in different scenarios, different testers had different reactions to the bot's errors. For example, one tester may have continued with the chat without mentioning the error, while another tester may have first pointed out to the bot that there was a mistake. In the end, the difference here may have yielded different conversation outcomes.
 
-3. Evaluation procedure: Only two separate raters are available for the evaluation. The evaluation results would sound more valid if more raters were involved.
+3. Evaluation procedure: Only two separate raters are available for the evaluation. The evaluation results would sound more valid if more raters were involved. Also, the evaluation was mostly subject to the raters' personal judgement, inter-rater reliability had not been examine, hence there may be more fluctuated scorings across the scenarios with different prompts.
 
 ## Ethical Considerations
 Our chatbot project aims to help users emotionally in different scenarios, so addressing this technology's ethical implications is important. These ethical considerations play an essential role in ensuring that this kind of chatbot serves users responsibly and respects their needs and rights.
