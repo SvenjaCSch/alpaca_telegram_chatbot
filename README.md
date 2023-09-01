@@ -288,6 +288,7 @@ Empathy aspects are crucial in human interactions since they contribute to devel
 
 The evaluation has provided insights that can guide future improvements. The main focus will be maintaining context and minimizing common errors, particularly regarding response coherence. 
 For this, it might be vital to include more natural language processing techniques but also context-aware algorithms. This can help with more fluid interactions.
+Since we could not filter out one prompt that gave clear results and the conversations seemed dependent on the situation, it was not possible to continue with the text-to-speech phase. In order to get clear results, further tests are needed and would, therefore, be the next step in optimizing the friendly chatbot.
 
 
 ## Limitations
@@ -298,7 +299,7 @@ For this, it might be vital to include more natural language processing techniqu
 3. Evaluation procedure: Only two separate raters are available for the evaluation. The evaluation results would sound more valid if more raters were involved.
 
 ## Ethical Considerations
-Our chatbot project aims to help users emotionally in different scenarios, so we also find it important to address this technology's ethical implications. These ethical considerations play an essential role in ensuring that this kind of chatbot serves users responsibly and respects their needs and rights.
+Our chatbot project aims to help users emotionally in different scenarios, so addressing this technology's ethical implications is important. These ethical considerations play an essential role in ensuring that this kind of chatbot serves users responsibly and respects their needs and rights.
 
 This ethical framework is rooted in a broader context of chatbot ethics and AI. It is drawn from the insights already discussed in “The Ethical Chatbot: A Viable Solution to socio-legal Issues” (Ng et al., 2022), which also helps us in our project to underline the central role that ethics plays in AI.
 
@@ -308,7 +309,7 @@ One key consideration is focusing on users’ privacy and transparency in our ch
 
 ### Vulnerability and inclusivity of different users
 
-Another critical point includes addressing the needs of vulnerable users and ensuring inclusivity without looking down on them or marginalizing certain users. On the one hand, diverse user requirements should be supported according to their individual needs and not be too generic, so that it will not sound or look like a cold robotic assistant. On the other hand, a one-size-fits-all approach should be avoided while providing ethical and practical assistance. 
+Another critical point includes addressing the needs of vulnerable users and ensuring inclusivity without looking down on them or marginalizing certain users. On the one hand, diverse user requirements should be supported according to their individual needs and not be too generic so that it will not sound or look like a cold robotic assistant. On the other hand, a one-size-fits-all approach should be avoided while providing ethical and practical assistance. 
 
 ### Ethical and responsible innovations
 
