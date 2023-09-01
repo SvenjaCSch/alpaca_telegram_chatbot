@@ -144,7 +144,7 @@ An independent rater who had not involved in the chat would first read the stati
 
 We decided to incorporate error points deduction (minimum of minus 0 point to maximum of minus 5 points) into our evaluation to enhance its realism. The approach involves both double-weighted and single-weighted error points deduction. The double-weighted errors underline the severity of the errors in the conversation, while the single-weighted errors might be seen as more minor errors. The goal is a natural conversation flow, and in order to maintain it, it is important for the chatbot to, for example, not complete the chat by itself. On the other hand, a natural conversation flow might not be very much disturbed by, for example, a spelling error.
 
-A conversation's highest score is 30 points, with excellent performance and no errors.  
+All in all, a conversation's highest attainable score is 30 points, given that it has an excellent performance and contains no errors.  
 
 ## Results
 Results of Scenario Bored:
