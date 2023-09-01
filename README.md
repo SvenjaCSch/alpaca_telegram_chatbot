@@ -112,7 +112,7 @@ In order to make the chats comparable across different prompts, some rules need 
 ### Evaluation of the conversations
 As previously mentioned in the introduction, there were studies that proposed evaluation metrics that help evaluate a chatbot's performance. We took the evaluation metrics presented by Verselica et al. (2018) as a guideline to create our own. Some perspectives were left out since we did not consider them as important for this project. Our main focus lies on the user's experience and on the linguistic performance of the chatbot. 
 
-An independent rater who had not involved in the chat would first read the static conersation logs, then give a score to each the following perspectives, based on their understanding and judgement of the conversation quality, as well as how well the chatbot reached the goal under the that particular scenario.
+An independent rater who had not involved in the chat would first read the static conersation logs, then give a score (from minimum of 1 point to maximum of 5 points) to each the following perspectives, based on their understanding and judgement of the conversation quality, as well as how well the chatbot reached the goal under the that particular scenario.
 
 (The full table is on Google Docs and can be found in the appendix part.)
 
@@ -131,18 +131,18 @@ An independent rater who had not involved in the chat would first read the stati
 5) **Excellent**: The chatbot's performance is outstanding -  little to no room for improvement.
 
 
-#### Conversation errors (double weighting)
+#### Conversation errors (double weighting) 
 1) Not answering the question, for example (leaving out information) (0 to -5)
 2) Ignoring/forgetting the previous context (0 to -5)
 3) Bot creates the whole dialogue by itself (0 to -5)
 4) Not finishing sentences (0 - -5)
 5) Bot just ends the dialogue (0 - -5)
 
-#### Structural error (single weighting):
+#### Structural error (single weighting)
 1) Repetition (0 to -5)
 2) Spelling errors (0 to -5)
 
-We decided to incorporate error points into our evaluation to enhance its realism. The approach involves both double-weighted and single-weighted error points. The double-weighted errors underline the severity of the errors in the conversation, while the single-weighted errors might be seen as more minor errors. The goal is a natural conversation flow, and in order to maintain it, it is important for the chatbot to, for example, not complete the chat by itself. On the other hand, a natural conversation flow might not be very much disturbed by, for example, a spelling error.
+We decided to incorporate error points deduction (minimum of minus 0 point to maximum of minus 5 points) into our evaluation to enhance its realism. The approach involves both double-weighted and single-weighted error points deduction. The double-weighted errors underline the severity of the errors in the conversation, while the single-weighted errors might be seen as more minor errors. The goal is a natural conversation flow, and in order to maintain it, it is important for the chatbot to, for example, not complete the chat by itself. On the other hand, a natural conversation flow might not be very much disturbed by, for example, a spelling error.
 
 A conversation's highest score is 30 points, with excellent performance and no errors.  
 
