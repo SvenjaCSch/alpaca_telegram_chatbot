@@ -153,6 +153,9 @@ Chatbot Evaluation Rubric: https://docs.google.com/document/d/1gOaaY3d_I28JIt3fX
 1) Repetition (0 - -5)
 2) Spelling errors (0 - -5)
 
+We found it imporant to include error points, so the evaluation is more realistic. We decided on error points which are double weighted and error points that are single weightet. The double weightet errors underline the severness the errors have on the conversation. For a more natural behaviour it is important, that the chat does not complete the dialogue by itself, and spelling errors, for example, might throw the user as off as other errors. 
+Therefore, the highest score a conversation can reach is 30 points, with excellent performance and no errros. 
+
 ## Results
 Results of Scenario Bored:
 [https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit](https://docs.google.com/document/d/1F1vRZTrXeVOKekClkzYVOIymTDqZMmJ8WxnOIPdrLHA/edit?usp=sharing)
