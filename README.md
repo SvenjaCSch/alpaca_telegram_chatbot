@@ -109,20 +109,6 @@ In order to make the chats comparable across different prompts, some rules need 
  
 #### 4. Compare which prompt and evaluate which one performs the best in different scenarios.
 
-**These phases do we still need them?**
-
-`Phase 0: Showing difference between "original" prompt and "telegram" prompt`
-
-`Phase 1: Testing whether we need two rounds with the bored-example (how much difference between the two results?)`
-
-`Phase 2:`
-`At the end, it is also been tests whether the chosen prompt also works with voice-message (same results, similar results, different results)
-That procedure will lead to 2 x 3 x 2 = 12  different prompts and in total to 3 * 12 +1 = 37 tests
-`
-`Phase 3:`
-`Ask personal questions to the chatbot to see if there are more differences between gender and friend/assistant in general that might explain differences in the scenarios.`
-
-
 ### Evaluation of the conversations
 As previously mentioned in the introduction, there were studies that proposed evaluation metrics that help evaluate a chatbot's performance. We took the evaluation metrics presented by Verselica et al. (2018) as a guideline to create our own. Some perspectives were left out since we did not consider them as important for this project. Our main focus lies on the user's experience and on the linguistic performance of the chatbot. 
 
