@@ -152,8 +152,9 @@ As previously mentioned in the introduction, there were studies that proposed ev
 1) Repetition (0 - -5)
 2) Spelling errors (0 - -5)
 
-We found it imporant to include error points, so the evaluation is more realistic. We decided on error points which are double weighted and error points that are single weightet. The double weightet errors underline the severness the errors have on the conversation. For a more natural behaviour it is important, that the chat does not complete the dialogue by itself, and spelling errors, for example, might throw the user as off as other errors. 
-Therefore, the highest score a conversation can reach is 30 points, with excellent performance and no errros. 
+We decided to incorporate error points into our evaluation to enhance its realism. The approach involves both double-weighted and single-weighted error points. The double-weighted errors underline the severity of the errors in the conversation, while the single-weighted errors might be seen as more minor errors. The goal is a natural conversation flow, and in order to maintain it, it is important for the chatbot to, for example, not complete the chat by itself. On the other hand, a natural conversation flow might not be very much disturbed by, for example, a spelling error.
+
+A conversation's highest score is 30 points, with excellent performance and no errors. 
 
 ## Results
 Results of Scenario Bored:
